@@ -15,7 +15,7 @@ This GitHub page contains the full GIP document and a set of supporting material
 * [Prompt 26 State Refresh](https://github.com/kristinhoelting22/indicators-GIP/blob/main/Preamble%20and%20supporting%20materials/Milestone%20Gamma%20Prompt%2026)
 * [Prompt 28 State Refresh](https://github.com/kristinhoelting22/indicators-GIP/blob/main/Preamble%20and%20supporting%20materials/Milestone%20Delta%20Prompt%2028)
 
-#Author contributions:
+# Author contributions:
 * Kristin Hoelting was solely responsible for translating the FAO scoping review conceptual guidelines and data extraction protocol into the form of this GIP, which enables definitions and rules to be ingested and used by Google Gemini Pro. She worked iteratively with Gemini to develop instructions and prompts that enable Gemini to identify indicators and populating desired indicator attributes. While at FAO, Hoelting led the development of the conceptual guidelines and data extraction protocol that serve as the basis for this GIP.
 * Amber Himes-Cornell served as the overall project coordinator for FAO’s scoping review, including overseeing the development of the conceptual guidelines and data extraction protocol that serve as the basis for this GIP.
 * Lucy Bowser assisted with development of the conceptual guidelines and data extraction protocol that serve as the basis for this GIP.
