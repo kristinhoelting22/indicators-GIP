@@ -8,12 +8,12 @@ This GIP could be adjusted or used as is to carry out indicator extraction for o
 
 This GitHub page contains the full GIP document and a set of supporting materials used to contextualize prompts and/or carry out state refreshes at several points throughout the process:
 
-[Global Instruction Preamble](https://github.com/kristinhoelting22/indicators-GIP/edit/main/README.md)
-[How To Use](https://github.com/kristinhoelting22/indicators-GIP/blob/main/Preamble%20and%20supporting%20materials/Initial%20prompts)
-[Prompt 16 State Refresh](https://github.com/kristinhoelting22/indicators-GIP/blob/main/Preamble%20and%20supporting%20materials/Milestone%20Alpha%20Prompt%2016)
-[Prompt 19 State Refresh](https://github.com/kristinhoelting22/indicators-GIP/blob/main/Preamble%20and%20supporting%20materials/Milestone%20Beta%20Prompt%2019)
-[Prompt 26 State Refresh](https://github.com/kristinhoelting22/indicators-GIP/blob/main/Preamble%20and%20supporting%20materials/Milestone%20Gamma%20Prompt%2026)
-[Prompt 28 State Refresh](https://github.com/kristinhoelting22/indicators-GIP/blob/main/Preamble%20and%20supporting%20materials/Milestone%20Delta%20Prompt%2028)
+* [Global Instruction Preamble](https://github.com/kristinhoelting22/indicators-GIP/edit/main/README.md)
+* [How To Use](https://github.com/kristinhoelting22/indicators-GIP/blob/main/Preamble%20and%20supporting%20materials/Initial%20prompts)
+* [Prompt 16 State Refresh](https://github.com/kristinhoelting22/indicators-GIP/blob/main/Preamble%20and%20supporting%20materials/Milestone%20Alpha%20Prompt%2016)
+* [Prompt 19 State Refresh](https://github.com/kristinhoelting22/indicators-GIP/blob/main/Preamble%20and%20supporting%20materials/Milestone%20Beta%20Prompt%2019)
+* [Prompt 26 State Refresh](https://github.com/kristinhoelting22/indicators-GIP/blob/main/Preamble%20and%20supporting%20materials/Milestone%20Gamma%20Prompt%2026)
+* [Prompt 28 State Refresh](https://github.com/kristinhoelting22/indicators-GIP/blob/main/Preamble%20and%20supporting%20materials/Milestone%20Delta%20Prompt%2028)
 
 #Author contributions:
 * Kristin Hoelting was solely responsible for translating the FAO scoping review conceptual guidelines and data extraction protocol into the form of this GIP, which enables definitions and rules to be ingested and used by Google Gemini Pro. She worked iteratively with Gemini to develop instructions and prompts that enable Gemini to identify indicators and populating desired indicator attributes. While at FAO, Hoelting led the development of the conceptual guidelines and data extraction protocol that serve as the basis for this GIP.
