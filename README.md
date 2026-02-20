@@ -6,7 +6,7 @@ This Global Instruction Preamble (GIP) contains conceptual guidelines and data e
 
 This GIP could be adjusted or used as is to carry out indicator extraction for other applications.
 
-This GitHub page contains the full GIP document and a set of supporting materials used to contextualize prompts and/or carry out state refreshes at several points throughout the process:
+This GitHub repository contains the full GIP document and a set of supporting materials used to contextualize prompts and/or carry out state refreshes at several points throughout the process:
 
 * [Global Instruction Preamble](https://github.com/kristinhoelting22/indicators-GIP/edit/main/README.md)
 * [How To Use](https://github.com/kristinhoelting22/indicators-GIP/blob/main/Preamble%20and%20supporting%20materials/Initial%20prompts)
