@@ -1,0 +1,27 @@
+The following is the Global Instruction Preamble (GIP) containing the technical definitions and the operational prompt sequence in Section 18.0. Please ingest this entire document. Once ingested, execute P1 from Section 18.0 to begin the session:
+
+The following is the Global Instruction Preamble (GIP) containing the technical definitions and the operational prompt sequence in Section 18.0. Note that the prompts skip from 18, 18.1, and 18.2 to 26, and that is ok - do not look for the missing prompts as those have been removed for the purpose of this session.  Please ingest this entire document. Once ingested, execute P1 from Section 18.0 to begin the session:
+
+Here is the article for P2. When you review, please let me know whether there is reference to any supplemental materials I should identify and provide in P3. Otherwise, proceed to P4.
+
+Here are the referenced supplemental materials. After you ingest these, please confirm whether or not they are the supplemental materials you were looking for. Then proceed to P4.
+
+Here is the human-identified indicator list for integration in P5. If you make any adjustments to the original AI extracted list, please explain the changes and whether or not you agree with them:
+
+For those indicators in the original human-identified list that you have identified for removal, please retain them in the final indicator list but add [REMOVED] in the title of the indicator. Please continue collecting information about them throughout the rest of the process. For those indicators from the AI list (not originally on the human-identified list) that you have identified for removal, proceed with full removal from the list moving forward.
+
+For static baseline inputs for a study, the details of the variable - including outcome type and variable type of outcome - should be recorded in the "variable type upon scoring" column, and "n/r" should be recorded in columns for outcome type and variable type of outcome. Depending on the outcome type listed in the variable type upon scoring column (narrative (5), composite index (6), latent construct (7), other derived outcome (8), model output (10), or categorical outcome (11)), the variable type of outcome can be recorded in parentheses following the outcome type, for example a baseline input that characterized as a nominal descriptive statistics would be listed as "5(n)" in the "variable type upon scoring" column.
+
+Did you find any necessary updates to Table 2 during p18.1 or p18.2, or can we retain the Table 2 output you provided earlier?
+
+Please recreate Table 4 so that any empty cells say "n/a".
+
+Please recreate Table 4 so that any empty cell says "n/a." Please ensure that the formatting of the table is such that, when I copy and paste it, the details of an individual indicator fit within a single spreadsheet row.  Also please remove all internal source links.
+
+Please recreate Table 2 with all indicator rows detailed, and ensuring that the formatting of the table is such that, when I copy and paste it, the details of an individual indicator fit within a single spreadsheet row.  Also please remove all internal source links.
+
+Tell me more about indicator 24, including why you coded it as a categorical outcome variable, what the "identities" are that make up the categories, and what the sub-variables are that provide attribute combinations constituting those identities.
+
+Are the sub-variables described also included as stand-alone indicators in the full indicator list, or would they be included as equation secondary variable elements?
+
+Articles in this Special Issue also touch on the question of where power lies to provide justice.

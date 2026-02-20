@@ -1,0 +1,293 @@
+| MILESTONE ALPHA |
+
+STATE REFRESH: MILESTONE ALPHA
+
+INSTRUCTIONS: We are shifting from indicator identification to Relational Mapping. To ensure 100% accuracy for Table 2, prioritize the technical rules in the reference block below.
+
+Confirm by stating: "Relational Mapping rules for Section 14.0 and 16.3 are now active," then execute P16 from Section 18.0.
+
+
+
+==================================================
+
+
+REFERENCE BLOCK: SECTIONS 14.0 & 16.3
+
+
+==================================================
+
+```markdown
+
+# **14.0 Relationships Within and Between Indicators**
+
+I am interested to track several types of conceptual relationships that exist both within the description of a single indicator, and between two distinct indicators included in AI’s list of relevant indicators.
+
+* **Within-Indicator Relationships**: The types of within-indicator relationships of interest include:
+
+    * **Conceptual Proxy**: The **primary variable concept** is used as a proxy for the **indicator topic**. Definitions are provided in section [14.1.1 Conceptual Elements within a Single Indicator](#1411-conceptual-elements-within-a-single-indicator), and the protocol for identifying presence or absence of a conceptual proxy is provided in section [14.1.3 Conceptual proxy](#1413-conceptual-proxy).
+    * **Secondary Variable Concepts**: After identifying the **primary variable concept**, i.e., the primary conceptual assessment target of the variable, there may be additional, **secondary variable concept(s)** described in the **indicator definition** and/or **variable assessment details**. The conceptual sub-category of these secondary concepts must also be recorded in Table 3 following definitions provided in section [14.1.1 Conceptual Elements within a Single Indicator](#1411-conceptual-elements-within-a-single-indicator) and protocols outlined in section [14.1.2 Protocols for Identifying Conceptual Components Within Indicators](#1412-protocols-for-identifying-conceptual-components-within-indicators].
+
+* **Between-Indicator Relationships**: The types of between-indicator relationships of interest include:
+
+    * **Sub-variables and Outcome Variables**: The role of some indicators as constitutive **sub-variables** used to calculate other **outcome variable** indicators (see section [14.2 Sub-variables and Outcome Variables](#142-sub-variables-and-outcome-variables)
+    * **Relating variables and Target Variables**: The role of one indicator (X) as a **relating variable** and another indicator (Y) as a **target variable**. The terms relating variable and target variable are broad terms used to capture concepts such as predictor and response variables, independent and dependent variables, as well as types of X-Y relationships that are not directional or not statistically explored. Definitions of types of X-Y relationships are provided in section [14.3 X-Y relationship types](#143-x-y-relationship-types).
+
+## **14.1 Within-Indicator Conceptual Relationships**
+
+### **14.1.1 Conceptual Elements within a Single Indicator**
+If all three **basic variable components** are reported in the study (Indicator Name, Indicator Definition, and Variable Assessment Details), as described in section [2.0 Instructions for Identifying Relevant Indicators](#20-instructions-for-identifying-relevant-indicators), it will be possible to discern all of the **conceptual elements** for the indicator. If the Variable Assessment Details are not provided in the study, it will only be possible to identify the Indicator Topic. The full set of conceptual elements are as follows:
+
+| Conceptual Component | Definition | Protocol Reference |
+|:---|:---|:---|
+| **Indicator topic** | The **conceptual representation target** (the goal concept). Always present. [MANDATE for Sub-variables]: For any indicator acting as a $\mathbf{Sub-variable}$ to a **Composite index** (Code 4 in Table 4) or an **Other derived outcome** (Code 5 in Table 4), the Indicator Topic MUST be conceptually identical to the Primary Variable Concept unless the original source text explicitly states that the sub-variable is used as a proxy for an external concept. The only exception is for inputs to Latent Constructs (Code 7 in Table 4), where the IT of the sub-variable defaults to the IT of the Latent Construct. The Indicator topic is always present. | Protocol 14.1.2.1 |
+| **Primary Variable Concept** | The **primary conceptual assessment target** (the concept being directly assessed). Present if Variable Assessment Details are available. | Protocol 14.1.2.4 |
+| **Specifying Secondary Variable Concept** | A **more specific conceptual component** used to detail a general Primary Variable Concept. | Protocol 14.1.2.5 |
+| **Equation Secondary Variable Concept** | A **conceptual sub-variable** implied by the indicator's mathematical structure or indicator definition but not fully described in the study as a stand-alone sub-variable. | Protocol 14.1.2.6 |
+| **Predictor Secondary Variable Concept** | A **conceptual element described as influencing or correlating** with the Indicator Topic/Primary Variable Concept within the indicator's definition.| Protocol 14.1.2.7 |
+
+### **14.1.2 Protocols for Identifying Conceptual Components Within Indicators**
+
+#### **14.1.2.1 Format Constraint: Multiplicity of Secondary Concepts**: The following rule applies to all subsequent protocols having to do with identification of **Secondary Variable Concepts** (Protocols 14.1.2.6, 14.1.2.7, and 14.1.2.8):
+
+**Multiplicity Format Constraint**: If an indicator description yields more than one secondary variable concept (Specifying, Equation, or Predictor), the corresponding conceptual sub-categories and definition matches reported in Table 3 **must be separated by a semi-colon (;) for each distinct entry.** (Example: "Material benefits; Food security and consumption").
+
+#### **14.1.2.2 Protocol for Indicator Topic Assignment for Sub-variables**: The **Indicator Topic** assignment for any indicator that also serves as a **Sub-variable** of a complex aggregate (Relational Codes 3, 4, or 5 in Table 6) must follow this precedence: 1. **Default Rule**: The Indicator Topic must be conceptually identical to the $\mathbf{Primary \ Variable \ Concept}$ (i.e., the sub-variable is its own topic). This results in Proxy Absent (n/a). 2. **Explicit Proxy Exception**: Override the default rule only if the source text explicitly names the sub-variable (X) as a measure of a distinct, high-level concept (Z) not equal to the Primary Variable Concept. (Resulting in Proxy Present (Yes)).
+
+#### **14.1.2.3 Protocol for Latent Construct Sub-variables (Code 7 Exception)**: If the indicator acts as a $\mathbf{Sub-variable}$ feeding into a $\mathbf{Latent \ Construct \ (Code \ 7)}$ output, the **Indicator Topic** $\mathbf{MUST}$ be the name/concept of the Latent Construct itself. This reflects the conceptualization that the sub-variable is an observable manifestation of the latent construct, thereby acting as a proxy for it (resulting in Proxy Present (Yes) if categories are distinct, or Proxy Absent (n/a) if the construct name happens to map to the same category).
+
+#### **14.1.2.4 Protocol for Identifying Indicator Topic**
+The Indicator Topic is the conceptual representation target of the indicator and is always present. It must be discerned based on a comprehensive review of all available basic indicator components (Indicator Name, Indicator Definition, and/or Variable Assessment Details).
+
+* **Discretion Rule**: If only one basic indicator component is available, the indicator topic must be discerned based solely on that one component
+
+#### 14.1.2.5 Protocol for Identifying the Primary Variable Concept**
+The Primary Variable Concept is the primary conceptual assessment target of the indicator. Its identification is strictly conditional on the study providing details on how the variable was assessed.
+
+* **Condition**: This element is possible to discern and always present if and only if Variable Assessment Details are provided for the indicator in the source text.
+* **Discernment**: The Primary Variable Concept must match the main concept of the indicator that is directly being measured or assessed.
+
+#### **14.1.2.6 Protocol for Identifying a Specifying Secondary Variable Concept**
+
+* **Trigger**: Indicator definition or Variable Assessment Details are present.
+* **Step 1 (Check Scope)**: Does the variable description contain both a general conceptual component and a specific conceptual component?
+* **Step 2 (Check Conceptual Match)**: Do the general and specific components match to distinct conceptual sub-categories?
+* **Step 3 (Execution)**: If the condition in Step 2 is Yes, the AI must report the following information in Table 3:
+
+    a. **Secondary variable concept type**: Begin each entry with the type of secondary variable element, followed by colon space (": "), (e.g., "Specifying: ").
+    b. **Secondary Concept**: Report the specifying concept (e.g., "Catching power of gear"), followed by comma space (", "). For example, if an indicator has the **primary variable concept** of "Catching power", and the indicator definition and/or variable assessment details clarify that the indicator is specifically about a particular aspect or type of catching power, e.g., catching power of the gear (as opposed to the vessel itself or the number of crew), AI should recognize the presence of a more specific concept beyond catching power, and enter the more specific concept "Catching power of harvest gear, ".
+    c. **Associated Sub-category**: Report the conceptual sub-category that best matches the implied concept (e.g., "Harvest gear"). (Reference definitions in section [13.3 Sub-category definitions](#133-sub-category-definitions)).
+    d. **Multiplicity**: If several specifying conceptual elements are implied by the definition and/or variable assessment details, separate individual entries using a semi-colon and space ("; "). If other types of secondary variable concepts are also listed, these must also be separated by a semi-colon and space ("; ").
+
+#### **14.1.2.7 Protocol for Identifying an Equation Secondary Variable Concept**
+
+* **Trigger**: The **indicator definition** and/or **Variable Assessment Details** are present.
+* **Step 1a (Check Calculation Logic)**: Does the variable assessment description suggest conceptual elements that were used to calculate or structurally define the Indicator Topic?
+* **Step 1b (Mandate for Code 11 Constitutive Elements)**: For any indicator whose Outcome Type is Categorical Outcome (Code 11), the conceptual characteristics/sub-variables that define the grouping (e.g., economic capacity, regulatory environment, geographic location) MUST be treated as Equation Secondary Variable Concepts and documented following Step 2, even if no arithmetic calculation is present.
+* **Step 2 (Execution)**: If the condition in **Step 1a is Yes** OR if the mandate in **Step 1b applies**, the AI must report the following information in Table 3:
+
+    a. **Secondary variable concept type**: Begin each entry with the type of secondary variable element, followed by colon space (": "), (e.g., "Equation: ").
+    b. **Secondary Concept**: Report the concept being structurally implied (e.g., "Days at sea"), followed by comma space (", "). For example, if an indicator with the **indicator topic** "Fishing effort", and the indicator definition and/or variable assessment details suggest that one of the elements of the calculation involved the number of days at sea, AI should recognize this as an equation secondary variable element that is structurally constitutive of the indicator topic, and enter "Days at sea, ".
+    c. **Associated Sub-category**: Report the conceptual sub-category that best matches the implied concept (e.g., "Harvest practices"). (Reference definitions in section [13.3 Sub-category definitions](#133-sub-category-definitions)).
+    d. **Multiplicity**: If several equation conceptual elements are implied by the definition and/or variable assessment details, separate individual entries using a semi-colon and space ("; "). If other types of secondary variable concepts are also listed, these must also be separated by a semi-colon and space ("; ").
+
+#### **14.1.2.8 Protocol for Identifying a Predictor Secondary Variable Concept**
+
+* **Trigger**: Indicator definition or Variable Assessment Details are present.
+* **Step 1 (Check Relationship)**: Is a directional or non-directional relationship between conceptual elements described within the indicator's definition/details?
+* **Step 2 (Execution)**: If the condition in Step 1 is Yes, the AI must report the following information in Table 3:
+
+    a. **Secondary variable concept type**: Begin each entry with the type of secondary variable element followed by the type of X-Y relationship present (using the X-Y relationship typology in section [14.3.2 X-Y Relationships to Record](#1432-x-y-relationships-to-record)), followed by colon space (": "), (e.g., "Predictor5: ").
+    b. **Secondary Concept**: Report the concept acting as a relating variable (X) for the primary variable concept (Y), followed by comma space (", "). For example, if the primary variable concept of an indicator % active fishing permits, and the definition of the variable is "the effect of fuel costs on the proportion of fishing permits that are actively fished," AI should recognize a relating variable, "Cost of Fuel" (X) acting on the primary variable concept and enter "Cost of Fuel, " as a predictor secondary concept.
+    c. **Associated Sub-category**: Report the conceptual sub-category that best matches the implied concept (e.g., "Variable costs"). (Reference definitions in section [13.3 Sub-category definitions](#133-sub-category-definitions)).
+    d. **Multiplicity**: If several predictor conceptual elements are implied by the definition and/or variable assessment details, separate individual entries using a semi-colon and space ("; "). If other types of secondary variable concepts are also listed, these must also be separated by a semi-colon and space ("; ").
+
+### **14.1.3 Conceptual proxy**
+The **Primary Variable Concept** and the **Indicator Topic**, as defined in section [14.1.1 Conceptual Elements within a Single Indicator](#1411-conceptual-elements-within-a-single-indicator), are two conceptual components of an indicator. The AI must use the following steps to identify whether or not a **conceptual proxy** is present between the primary variable concept and the indicator topic:
+
+| Step | Action and Condition |
+|:---|:---|
+| **Trigger** | Both the **Primary Variable Concept** and the **Indicator Topic** have been successfully matched to a conceptual sub-category (following section [13.0 Conceptual categories](#130-conceptual-categories)). | | **Step 1 (Core Test)** | **Core Test**: Compare the conceptual sub-category assigned to the **Primary Variable Concept** against the conceptual sub-category assigned to the **Indicator Topic**. Note: This check applies only after the Indicator Topic has been assigned according to the $\mathbf{MANDATE \ for \ Sub-variables}$ in section [14.1.1 Conceptual Elements within a Single Indicator](#1411-conceptual-elements-within-a-single-indicator), meaning for most sub-variables, the IT will already equal the PVC, and the result will be Proxy Absent. |
+| **Step 2 (Execution)** | Determine the status and apply the output in the appropriate column (Conceptual Proxy Present): |
+| | **a. Proxy Absent (Direct Measure):** If the two conceptual sub-category assignments are **IDENTICAL**, the variable is a direct measure and no conceptual proxy is present. |
+| | **b. Proxy Present (Indirect Measure):** If the two conceptual sub-category assignments are **DISTINCT**, a conceptual proxy is present (e.g., using income to represent food security). |
+
+## **14.2 Sub-variables and Outcome Variables**
+
+I would like the AI to make note when one indicator serves as a sub-variable in the calculation of another indicator in the list of relevant indicators. Later when the AI produces a table with each indicator and its associated attributes, one attribute column will be dedicated to cross-referencing associated outcome variables (if the indicator acts as a sub-variable), and one column will be dedicated to cross-referencing associated sub-variables (if the indicator is an outcome variable built from sub-variables). The rules guiding this process are described in sections [14.2.1 Preparatory Mandates (Defining the Data Set)](#1421-preparatory-mandates-defining-the-data-set), [14.2.2 Immediate Constitutive Link Rule (Defining the Structural Requirements)](#1422-immediate-constitutive-link-rule-defining-the-structural-requirements), and [14.2.3 Verification and Execution Protocols (Ensuring Accuracy)](#1423-verification-and-execution-protocols-ensuring-accuray).
+
+### **14.2.1 Preparatory Mandates (Defining the Data Set)**:
+
+These rules ensure all necessary components of the constitutive hierarchy are included as discrete indicators before mapping begins:
+
+1. **Constitutive Term Inclusion Mandate**: The AI **must ensure that any component (X) used to determine the value of an outcome variable (Y) is separately identified and included as its own unique indicator.** This mandate applies regardless of the conceptual relationship type:
+    - **Constitutive Building Blocks**: Sub-variables that are synthesized or aggregated to define a multifaceted concept (e.g., inputs for Code 6).
+    - **Observable Manifestations**: Individual metrics used as reflective indicators to estimate an unobservable latent state (e.g., inputs for Code 7).
+    - **Functional/Structural Components**: Variables used in mathematical transformations, ratios, or structural tallies of related units (e.g., inputs for Code 8).
+    - **Identifying Attributes**: Characteristics used as criteria to assign a typological identity or regime (e.g., inputs for Code 11).
+
+2. **Standard Aggregate Decomposition Protocol (SADP)**: When applying the Immediate Constitutive Link Rule to complex aggregate variables, the AI **must use a strict one-step decomposition**:
+    - **Aggregate Inputs**: If an indicator (A) is defined by a formula listing multiple sub-aggregate variables (e.g., A = B + C + D), the immediate, one-step inputs (Associated Sub-variables of A) are ONLY B, C, and D. The AI must not trace the relationship further back to the inputs of B, C, or D within the same row.
+    - **Conceptual Integrity**: This "one-step" rule applies to all aggregates, including Latent Constructs (Code 7) and Categorical Outcomes (Code 11). The AI must only link to the immediate attributes or manifestations described by the author, strictly upholding the **Hierarchical Precision and Redundancy Check (HPRC)**.
+
+### **14.2.2 Immediate Constitutive Link Rule (Defining the Structural Requirements)**
+
+These rules establish the definitive one-step standard for all links documented in the columns and the resulting structural symmetry.
+
+1. **Immediate Constitutive Link (One-Step Constitutive Rule)**: The population of the Associated Outcome Variable and Associated Sub-variable columns must adhere to a strict one-step standard.
+
+    a. **Associated Outcome Variable**: An indicator (X) may only list an outcome variable (Y) if X is a direct and immediate input used in the mathematical calculation of Y.
+    b. **Associated Sub-variable**: An indicator (Y) may only list a sub-variable (X) if X is a direct and immediate input used in the calculation of Y.
+
+    > **Decomposition Hierarchy Rule**: When an indicator is part of a multi-level hierarchy (e.g., Variable A + Variable B = Sub-index X; Sub-index X + Sub-index Y = Final Index Z), the AI **must stop tracing at the first available intermediate node**. In this example, the sub-variables for Final Index Z are ONLY Sub-index X and Sub-index Y. The AI must NOT list Variable A or B as sub-variables for Z. This ensures the data chain is mapped as a sequence of discrete, single-step mathematical dependencies and prevents double-counting across the hierarchy.
+
+2. **Constitutive Symmetry Rule**: For any direct, immediate constitutive relationship between a Sub-variable (X) and an Outcome Variable (Y), **the relationship must be coded symmetrically across the two indicator rows**, as follows: If X lists Y’s number in its Associated Outcome Variable column, then... Y must list X's number in its Associated Sub-variable column.
+
+3. **Structural vs. Predictive Link Mandate (Classification of X $\to$ Y Relationship)**: The directional relationship between an $\mathbf{Input \ Variable \ (X)}$ and its $\mathbf{Output \ Variable \ (Y)}$ must be classified based on $\mathbf{structural}$ or $\mathbf{causal}$ functionality to determine its mapping location: 1. **Constitutive Functionality**: If the Output Variable $\mathbf{(Y)}$ is coded as $\mathbf{Code \ 6, 7, 8, 10, \ or \ 11}$, the relationship must be mapped as a **Sub-variable $\to$ Outcome Variable link**. These are exclusively tracked in the Associated Columns (Table 2) and the Constitutive Flow Chart (P25). 2. **Predictive Functionality**: If the Output Variable $\mathbf{(Y)}$ is coded as $\mathbf{Code \ 12}$ (Narrative Causal Outcome), the relationship must be mapped as a **Relating Variable $\to$ Target Variable link**. These are exclusively tracked in the Predictive Columns (Table 2) and the Predictive Flow Chart (P26).
+
+### **14.2.3 Verification and Execution Protocols (Ensuring Accuracy)**
+
+These rules define the mandatory order of execution to prevent directional errors and enforce consistency.
+
+1. **Constitutive Link Directional Verification (CLDV)**: To ensure strict adherence to the Immediate Constitutive Link Rule, the AI must first prioritize identifying all relationships by their direct flow: Sub-variable (Input)  Outcome Variable (Output). To accomplish this, following these rules:
+
+    a. **Input Linkage Priority (Associated Sub-variable Column -> Associated Outcome Variable Column)**: For any Indicator (A) that is an Outcome Variable, the AI **must definitively list all its one-step inputs in the Associated Sub-variable Column first**, using the relevant formula.
+
+    b. **Symmetry Enforcement (Associated Outcome Variable Column)**: Only after the Associated Sub-variable Column for Indicator A is complete, the AI **must populate the Associated Outcome Variable column for each of Indicator A's sub-variables, ensuring a symmetric cross-reference** (i.e., if Indicator B is in Indicator A’s Associated Sub-variable Column, then Indicator A must be in Indicator B’s Associated Outcome Variable Column).
+
+    c. **Prohibited Entries Check**: The AI **must perform a final check on the Associated Outcome Variable Column of every Outcome Variable (Indicator A) and confirm that Indicator B's column does not contain the indicator numbers of its own inputs** (which would violate the rule and signal a reversal of flow logic).
+
+## **14.3 X-Y Relationship Types**
+
+I would like the AI to record a spectrum of relationships between an X variable (i.e., a **relating variable**) and a Y variable (i.e., a **target variable**), other than the structural relationship between sub-variables that structurally constitute a calculated outcome variable or a categorical outcome variable. The section [14.3.1 X-Y Relationship Exclusion and Inclusion Rules](#1431-x-y-relationship-exclusion-and-inclusion-rules) explains the type of structural X-Y relationship that AI should exclude from this portion of attribute identification because it has separately been captured in the relationship between sub-variables and outcome variables, as directed in section [14.2 Sub-variables and Outcome Variables](#142-sub-variables-and-outcome-variables). The section [14.3.2 X-Y Relationship to Record](#1432-x-y-relationships-to-record) provides definitions of the types of X-Y relationships that AI must distinguish and record in this potion of attribute identification. The following table lists key conceptual elements involved in X-Y relationships in this section:
+
+| Term | Definition | Relationship Role | GIP Code Link |
+| :--- | :--- | :--- | :--- |
+| **Relating Variable (X)** | The indicator serving as the independent variable or predictor. This encompasses the Narrative Causal Element (NCE) and any quantitative causal input. | Input (Cause/Driver) | N/A |
+| **Target Variable (Y)** | The indicator serving as the dependent variable or outcome that is being influenced. This encompasses the Narrative Causal Outcome (NCO) and any quantitative effect variable. | Output (Effect/Outcome) | N/A |
+| **Narrative Causal Statement (NCS)** | A directional relationship (X → Y) asserted by the research authors or study participants, derived from qualitative analysis (e.g., interviews, thematic coding). The statement links a Narrative Causal Element (X) to a Narrative Causal Outcome (Y). | Systemic/Predictive | Code 5 (X-Y Relationship Type) |
+| **Narrative Causal Element (NCE)** | The **input or causal factor** (X) identified in an NCS. This variable is the **Relating Variable (X)** in the predictive analysis columns. | Input (Cause) | Code 4 (Basic Variable Type) |
+| **Narrative Causal Outcome (NCO)** | The **output or effect** (Y) identified in an NCS. This variable is the **Target Variable (Y)** in the predictive analysis columns. | Output (Effect) | Code 4 (Variable Type Upon Scoring); Code 12 (Outcome Type); Code 4 (Variable Type of Outcome |
+
+### **14.3.1 X-Y Relationship Exclusion and Inclusion Rules**
+The following rules guide the process of identifying relevant X-Y relationships:
+
+1. **Structural Identity Exclusion Rule (The Definitional Test)**: The AI **must not** record an X-Y relationship (Codes 1-9) if the relationship is already captured as a structural, constitutive link as described in section [14.2 Sub-variables and Outcome Variables](#142-sub-variables-and-outcome-variables), **UNLESS that constitutive link is also explicitly identified as fulfilling a Causal-Testing Role (Rule 14.3.1.3)**. This exclusion applies when the model relationship defines an aggregate quantity, value, status, or classification, including all relationships involving:
+
+* **Simple Arithmetic Identity (Code 8)**: Relationships involving only simple arithmetic (summation, averaging, multiplication/division, ratio, or subtraction) used to define an aggregate quantity or value (e.g., Revenue = Price × Quantity; Total = Σ Parts).
+* **Status-Ranking Identity (Code 6)**: The definitional step of converting constitutive sub-variable scores into a performance-based status or rank (e.g., binning a numeric score into "High," "Medium," or "Low" vulnerability). Because the purpose of the output is to represent the aggregate status of the multifaceted concept, it is a structural aggregation, not a systemic causal prediction.
+* **Manifestation Identity (Code 7)**: The reflective relationship where indicators are hypothesized to manifest an unobservable latent state (e.g., survey questions manifesting "Social Capital").
+* **Categorical Classification Identity (Code 11)**: The definitional step of assigning an identity or "type" based on a specific configuration of attributes (e.g., defining a "Fleet Segment" or "Management Regime" based on a specific combination of gear and vessel size).
+
+This rule reserves the X-Y Predictive analysis for **Systemic Causality** (non-definitional, high-level, or statistically tested relationships). The precedence rule is enforced by the Causal-Testing Priority Mandate (Rule 14.3.1.4).
+
+2. **External Predictive Role Mandate**: An indicator (X) whose primary role is to act as an Associated Sub-variable in a constitutive relationship (Codes 3, 4, or 5) **must still be recorded as a Relating Variable (X)** in the predictive columns if the study explicitly uses it as a predictor in a **separate, non-constitutive X-Y analysis**. This ensures that the indicator's **full systemic role**—both as a component (constitutive) and as a driver (predictive)—is documented, regardless of its position in a calculation chain.
+
+3. **Statistical Causal Inclusion Mandate (The Estimation Test)**: Notwithstanding Rule 1, the AI **must include** an X-Y relationship (Codes 1-9) if the link between X and Y is defined by a **statistically estimated parameter or coefficient** that was quantified through a model-fitting process (e.g., maximizing likelihood, minimizing errors, nonlinear regression). This mandate ensures that all relationships where the study's scientific purpose is to **test or quantify a hypothesized causal influence** (e.g., calculating price flexibilities, regression coefficients) are documented in the **Relating variable** and **Target variable** columns.
+
+4. **Causal-Testing Priority Mandate**: When a relationship satisfies both the **Structural Identity Exclusion Rule (14.3.1.1)** and the **Statistical Causal Inclusion Mandate (14.3.1.3)**, the Causal-Testing role **MUST** take precedence for inclusion in the predictive columns. The link must be classified as **Constitutive and Predictive (Rule 3)** in the Rationale column.
+
+**Application Note**: This applies specifically to cases where an aggregate variable (Code 6 or 11) is not merely a sum of its parts, but is used in a model-fitting process (e.g., sensitivity analysis, regression) to quantify the specific influence of an input on the outcome. In such cases, the relationship serves a dual role: 1. It structurally defines the output (Constitutive), and 2. It scientifically tests a causal hypothesis (Predictive).
+
+### **14.3.2 X-Y Relationships to Record**
+
+For any X-Y relationship that is not excluded based on the X-Y Exclusion Rule, **the AI must record the type of X-Y relationships based on two characteristics**: 1. Whether the X-Y relationship is directional or non-directional, and 2. Whether evidence of the X-Y relationship is statistical or non-statistical. Later, when the AI produces a table, the numeric codes should be used as part of reporting the relating variable to indicate the type of relationship between an X and Y variable. **The output must be the numerical identifier (1 through 9) corresponding to the following typology, not the text description:**
+
+**Mandatory Two-Step X-Y Relationship Verification Protocol**: When assigning a relationship code (1 through 9), the AI must follow this strict two-step verification to ensure accuracy:
+1. **Step 1: Role and Directionality Mapping**: Identify whether the relationship is (a) Directional (X $\to$ Y; hypothesis/model explicitly tests X's influence on Y) or Non-Directional (X $\leftrightarrow$ Y; hypothesis/model tests simple association/correlation). Concurrently determine the Statistical Basis (Statistical, Non-Statistical, or Unknown).
+2. **Step 2: Significance Check**: If the relationship is found to be Statistical, determine the outcome based on the reported $p$-value or equivalent metric ($\alpha = 0.05$): Significant, Not Significant, or Unknown/Not Reported. The final Code (1–9) must align precisely with the combination of Directionality and Significance status defined in the table below.
+
+| Code | Term | Full Definition |
+| :---: | :--- | :--- |
+| **1** | **Directional, statistical, significant** | a directional relationship (influence of a relating variable on a target variable) was found to be statistically significant, e.g., regression analysis, sensitivity analyses, or other approaches to assessing the magnitude of effect of a single variable in a model, e.g., Cohen’s d, the Phi ($\phi$) coefficient, or Cramér's V Regression; |
+| **2** | **Directional, statistical, not significant** | a directional relationship (influence of a relating variable on a target variable) was found NOT to be significant; |
+| **3** | **Directional, statistical, unknown significance** | a directional relationship was present (influence of a relating variable on a target variable), but the significance of the relationship was not reported or was undetermined; |
+| **4** | **Non-directional, non-statistical** | a non-directional relationship between two variables is explored in a non-statistical manner, e.g., contingency tables, mosaic plots, stacked bar charts, overlaying two spatial variables on the same map, or qualitative co-occurrence. |
+| **5** | **Directional, non-statistical** | a directional relationship, in which a relating variable influences a target variable, is stated without use of inferential statistics, e.g., claims of influence are supported by evidence such as 1. relative change in a percentage over time, 2. time series of trend reporting, 3. differences of proportions across a set of categories, or narrative causal statements involving evidence from interviews or other qualitative data suggesting that one variable (relating variable) predicts or causes a change in an outcome of interest (target variable); |
+| **6** | **Non-directional, statistical, significant** | a non-directional relationship between two variables is explored using statistics and found to be significant, e.g., Pearsons's r (correlation between normally distributed, continuous variables), Spearman's rank correlation (correlation between variables that are non-normally distributed), Chi-squared (used for categorical variables), and log-linear analysis (used to explore relationship between three or more categorical variables); |
+| **7** | **Non-directional, statistical, not significant** | a non-directional relationship between two variables is explored using statistics and found NOT to be significant; |
+| **8** | **Non-directional, statistical, unknown significance** | a non-directional relationship between two variables is not reported or undetermined, i.e., no statistical results were reported by the authors; |
+| **9** | **Relationship exists but type is unknown** | it is not possible to identify whether the relationship was directional or non-directional, statistical or non-statistical, but it is clear that the author assumes a relationship between two variables. |
+
+### **14.3.3 Relationship Identification Goal**
+For every indicator, the AI **must identify its role in predictive relationships (X->Y) where the link is not already defined by the constitutive sub-variable calculation**, as directed in section [14.3.1 X-Y Relationship Exclusion and Inclusion Rules](#1431-x-y-relationship-exclusion-and-inclusion-rules). The following elements must be identified:
+
+| Relationship Element | Definition/Context |
+|:---|:---|
+| **Relating Variable (X)** | Determine which indicators serve as the predictor (X) for other indicators (Y) in the study. A relating variable is any indicator (X) that is used to explore its relationships to another indicator (Y), and may include indicators characterized as a directly measured continuous/count, ordinal, nominal, or narrative variable, or any type of outcome variable. A special type of relating variable is a **narrative causal element** which is the relating variable (X) in a **narrative causal statement**. |
+| **Target Variable (Y)** | Determine which indicators serve as the outcome (Y) being influenced by other indicators (X) in the study. A target variable is any indicator (Y) for which relationships with other indicators (X) are explored, and may include indicators characterized as a directly measured continuous/count, ordinal, nominal, or narrative variable, or any type of outcome variable. A special type of target variable is a **narrative causal outcome** which is the target variable (Y) in a **narrative causal statement**.  |
+| **Relationship Type** | Determine the numerical code (Type 1 through 9) from the X-Y typology in section [14.3.2 X-Y Relationships to Record](#1432-x-y-relationships-to-record) for each identified relationship. |
+
+### **14.3.4 Predictive Symmetry Rule (Cross-Referencing Output)**
+
+When populating the output table columns for X-Y relationships, the AI must ensure complete symmetrical cross-referencing using the following rules:
+
+| Indicator Role | Target Variable Column (X's Row) | Relating Variable Column (Y's Row) | Notes |
+|:---|:---|:---|:---|
+| **Relating Variable (X)** | Must list indicator number(s) of its Target variable(s) (Y). | Must list **n/a**. | Designates which variable is the predictor. |
+| **Target Variable (Y)** | Must list **n/a**. | Must list indicator number(s) of reciprocal Relating variable(s) (X) + **(Type Code)**, separated by semi-colons (e.g., 4(5)). | Ensures symmetrical cross-referencing and includes the relationship type. |
+| **Non-Directional (Types 4, 6, 7, 8)** | Arbitrarily assign one as X and one as Y. The X row lists Y's number. | The Y row lists X's number + (Type Code). | Relationship is recorded only once across the entire table using the single X->Y assignment. |
+
+### **14.3.5 Principle of Systemic Causality**
+
+When coding relationships in a complex model (like a bioeconomic simulation), the X-Y relationship typology (Type 1 through 9) must be reserved only for **emergent, high-level causal pathways and feedback loops** that define the system's management hypotheses or aggregate effects. This focuses analysis on the system-level interactions that mirror traditional predictive or causal analysis (e.g., policy levers and demographic feedback loops).
+
+## **16.3 Table 2 specifications**
+
+Using the same list of indicators generated in Table 1, the AI must populate Table 2 with a set of attributes of the indicator list across a series of columns. Creation of Table 2 must follow the **Validation Rule** in section [16.1 Rules for All Tables](#161-rules-for-all-tables) and the rules outlined in [16.3.1 Rules for Table 2](#1631-rules-for-table-2).
+
+### **16.3.1 Rules for Table 2**
+
+**Global Constraint for Non-Directional Relationships (Types 4, 6, 7, 8, and 9)**: For non-directional relationships, the entire relationship link must be recorded only once across the entire table. The AI must arbitrarily assign one variable as the Relating variable (X) and the other as the Target variable (Y). The remaining variable columns (Target and Relating) must be populated exclusively following the single X->Y assignment and the column definitions above provided in the specifications for this table in section [16.3.2 Table 2 Column Specifications](#1632-table-2-column-specifications).
+---
+**Example of Non-Directional Coding (Variable A assigned X, Variable B assigned Y)**:
+
+* **Row A (X)**: Target variable column lists [Number of B]. Relating variable column lists n/a.
+
+* **Row B (Y)**: Target variable column lists n/a. Relating variable column lists [Number of A](Type Code).
+
+**Predictive Symmetry Rule**: When populating the output table columns for X-Y relationships, the AI must ensure complete symmetrical cross-referencing using the following rules:
+
+* **Target Variable Column (X's Row Only)**: If the indicator is the Relating variable (X), this column must list the indicator number(s) of its Target variable(s) (Y).
+
+* **Relating Variable Column (Y's Row Only)**: If the indicator is the Target variable (Y), this column must list the indicator number(s) of its reciprocal Relating variable(s) (X). For each relating variable listed, the corresponding X-Y relationship type code (1 through 9) as defined in section [14.3.2 X-Y Relationships to Record](#1432-x-y-relationships-to-record), must be appended in parentheses for each identified relationship, separated by semi-colons (e.g., If predictors #2 and #5 both influence the current indicator, the entry might look like: 2(5); 5(1)).
+
+* **Enforced Exclusivity**: The assigned Y variable must list n/a in its Target variable column, and the assigned X variable must list n/a in its Relating variable column.
+
+** Code Reference Validation Check**: When populating the Relating variable column in Table 2, the AI must ensure that:
+
+* **Symmetry Check**: The indicator number preceding the parentheses (the Reciprocal Relating Variable, X) must correspond to a row where the Target variable column lists the current indicator's number.
+
+* **X-Y Relationship Type Codes**: The code inside the parentheses (the X-Y Relationship Type) must be drawn exclusively from the list of X-Y Relationship Type Codes (1 through 9) detailed in section [14.3.2 X-Y Relationships to Record](#1432-x-y-relationships-to-record).
+
+* **Cross-Typology Check**: The code inside the parentheses must not be any of the codes reserved for Outcome Variable Types (6, 7, 8, 10, or 11), preventing the accidental use of the Outcome Type as the Relationship Type.
+
+### **16.3.2 Table 2 Column Specifications**
+
+The AI must use the same indicator order and numbering for Table 2 as was included in the final Table 1 output. Following the column with the indicator name, **the following attributes must each be included in their own column**:
+
+    1. **Associated Outcome Variable**: If this indicator is a **sub-variable** used to calculate an **Associated Outcome Variable**, list the number(s) of the associated outcome variables in this column. The AI must only report an indicator as an Associated Outcome Variable if the current indicator is an immediate, constitutive sub-variable—meaning the current indicator's value is a necessary input (a term, factor, or argument) in the mathematical calculation of that Outcome Variable's value. **This must strictly follow the Immediate Constitutive Link Rule (One-Step Constitutive Rule)** described in section [14.2.2 Immediate Constitutive Link Rule (Defining the Structural Requirements)](#1422-immediate-constitutive-link-rule-defining-the-structural-requirements): **it must not list any outcome variable calculated from the immediate associated outcome (X -> Y -> Z is forbidden).** If this indicator is not a sub-variable used to calculate an associated outcome variable, write “n/a” in this column. For details see the section [14.2 Sub-variables and Outcome Variables.](#142-sub-variables-and-outcome-variables).
+
+    2. **Associated Sub-variable**: If this indicator is an **outcome variable** that is calculated using **Associated Sub-variables** listed in the table, list the number(s) of the relevant sub-variables in this column. If this indicator is not an outcome variable calculated from other sub-variables listed in this table, write “n/a” in this column. For further details see section [14.2 Sub-variables and Outcome Variables.](#142-sub-variables-and-outcome-variables).
+
+    3. **Target variable**: If this indicator is a **Relating variable (X)**, list the indicator number(s) of the associated **Target variables (Y)** in this column. If this indicator is a Target variable (Y), this column **must be marked with "n/a"** to prevent redundant recording of the relationship link. If this indicator is neither a relating nor a target variable, write "n/a" in this column.
+
+    4. **Relating variable**: If this indicator is a **Target variable (Y)**, list the indicator number(s) of the associated **Relating variables (X)**. **For each relating variable listed, the corresponding X-Y relationship type code (1 through 9), as defined in section [14.3.2 X-Y Relationships to Record](#1432-x-y-relationships-to-record), must be appended in parentheses for each identified relationship, separated by semi-colons (e.g., 2(5); 5(1)).** If this indicator is a Relating variable (X), this column **must be marked with "n/a"**.
+
+* **Mandate for X-Y Code Validation**: For every entry in this column containing a relationship code (1 through 9), the AI must perform a final internal audit to confirm that the assigned code adheres to the Mandatory Two-Step X-Y Relationship Verification Protocol defined in Section 14.3.2. Specifically, Code 1 (Directional, statistical, significant) and Code 6 (Non-directional, statistical, significant) must be reserved strictly for relationships where the statistical analysis reported $p < 0.05$ (or equivalent metric). Codes 2 and 7 must be used for non-significant statistical findings.
+
+    5. **Relationship Rationale**: The AI **must** provide a concise, cross-referenced rationale in this dedicated final column of Table 2, explaining the indicator's complete structural and predictive role. The rationale must address two components:
+
+A. **Constitutive Role (Sub-variable / Outcome Variable)**: Explain the immediate calculation role (Input to Y or Output from X).
+B. **Predictive Role (Relating / Target Variable)**: For any link recorded in the **Target variable** or **Relating variable** columns, explain the assignment based on the GIP's X-Y Relationship Exclusion/Inclusion Rules (Section 14.3.1). The rationale **must explicitly categorize the link's predictive basis**, stating whether the link's inclusion in the predictive columns is based on the structural relationship or an entirely separate causal test:
+> * **Structural-Only Role / Definitional Identity (Rule 1)**: Link is Constitutive, and **Excluded from predictive X-Y analysis** because it is a Mathematical Identity or Accounting Aggregation. (Link is Constitutive-Only).
+> * **Causal-Testing Role / Statistical Causal Estimate (Rule 3)**: Link is Constitutive, and **Included in predictive X-Y analysis** because the **structural relationship itself** was actively tested or quantified for a causal influence (e.g., parameter estimation, coefficient calculation). The rationale **MUST** explicitly state that the same structural link is being used for both **Architectural Mapping** (Constitutive) and **Hypothesis Testing** (Predictive), and be classified as: (Link is **Constitutive/Predictive**).
+> * **Causal-Testing Role / External Causal Role (Rule 2)**: Link is **Included in predictive X-Y analysis** because the indicator was used as a predictor in a **separate, non-constitutive X-Y analysis** (e.g., an input is correlated with the final high-level outcome, not its immediate calculation). (Link is Predictive-Only).
+
+**Clarification Mandate:** For indicators satisfying Rule 3, the rationale must explicitly state that the same structural link is being used for both **Architectural Mapping** (Constitutive) and **Hypothesis Testing** (Predictive).
+
+* **Format Constraint**: The relationship rationale should be brief, clearly identifying the structural relationship and its classification (e.g., "Constitutive: Direct calculation for Fst (Eq. 1). Predictive: **Constitutive/Predictive (Rule 3)**, structural link tested/calibrated for causal influence.")."```
+
+==================================================
+
+
+END OF REFERENCE BLOCK

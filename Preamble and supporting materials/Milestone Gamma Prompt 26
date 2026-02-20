@@ -1,0 +1,352 @@
+| MILESTONE GAMMA | "
+
+STATE REFRESH: MILESTONE GAMMA
+
+INSTRUCTIONS: We are shifting from conceptual logic to Technical Metadata and Data Scales. To prevent "autopilot" errors or hallucinations regarding data sources and levels of organization, prioritize the technical typologies in the block below.
+
+Confirm by stating: "Technical Metadata rules for Table 7 (Sections 5.0-10.0, 15.0, 16.8) are now active." Then, execute P26 from Section 18.0.
+
+================================================== REFERENCE BLOCK: SECTIONS 5.0–10.0, 15.0, & 16.8
+
+```markdown
+
+# **5.0 Community Type**
+
+The following typology should be used to characterize the **Community Type** of the indicator:
+
+| Code | Community Type | Definition |
+| :---: | :--- | :--- |
+| **1** | **Fishery Participant Community Focus** | The **indicator topic** is relevant to a **fishing community-of-practice** (i.e., fishery actors or the fishery as a whole). |
+| **2** | **Place-based Community Focus** | The **indicator topic** is relevant to a **place-based fishing community** (i.e., including non-fishing community members and/or having to do with the community context of place-based fishing communities). |
+| **3** | **Unclear** | The **indicator topic** is challenging to clearly locate as community type Code #1, Code #2, or Code #4 due to lack of specificity in the source text. |
+| **4** | **Context Variable** | The **indicator topic** relates to the broader **Human Dimensions Context** or the **Environmental Context** in which a community exists. |
+| **n/r** | **Not reported** | No information is available about the community focus of the indicator. |
+
+## **5.1 Primary Category as Guide to Community Type Coding**
+
+While an **indicator topic** coded to sub-categories within some of the **primary categories** have potential to be coded as any of the **community type** codes, there are also some primary categories that are inherently conceptually related to a specific community type, e.g., the **Community Context** primary category is specifically defined as relevant to descriptions of a place-based fishing community (Code #2). The following groupings identify primary categories that are either specifically tied to one of the community type codes, or for which multiple community type codes may make sense for an indicator:
+
+* **Primary Categories with a Fishery Participant Community Focus (Code 1)**: Indicators for which the **Indicator Topic** is coded to conceptual sub-categories within the following primary categories **must receive Code #1**:
+
+    * **Fishery Governance System Characteristics**
+    * **Fishery Governance System Performance**
+    * **Fishery System Economic Performance**
+    * **Fishery System Environmental Performance**
+    * **Fishery System Social Performance**
+
+* **Community Context Indicators (Code 2)**: Indicators coded to conceptual sub-categories within the **Community Context** primary category **must receive Code #2**.
+
+* **Macro-Context Indicators (Code 4)**: Indicators coded to conceptual sub-categories within the **Environmental Context** primary category or the **Human Dimensions Context** primary category **must receive Code #4**.
+
+* **Primary Categories with multiple possible community types**: Indicators for which the Indicator Topic is coded to the following sub-categories may be coded as either Code #1, Code #2, depending on the focus of the indicator itself:
+
+    * **Fishery Participant Well-being Capabilities**
+    * **Fishery Participant Well-being Conditions**
+    * **Fishery Participant Well-being Connections**
+
+* **Mandatory Rule: Contextual Resolution for Well-being Indicators**: When assigning a Community Type Code (Code #1 or Code #2) to indicators categorized under the three Fishery Participant Well-being primary categories, the system **MUST NOT** apply a conceptual default based on the indicator's topic (e.g., assuming socioeconomic variables automatically require Code #2). Instead, the code assignment **MUST** be determined by the **explicit data collection target** (the sampling frame) identified in the data source description or indicator narrative:
+
+    * **Rule A (Code 1 Requirement)**: If the indicator data was collected exclusively from identified Fishery Participants (e.g., individual fishers, patrons) or their designated Households/Entities, the code must be Code #1 (Fishery Participant Community Focus). This acknowledges that the data defines the characteristics of the specialized community of practice.
+    * **Rule B (Code 2 Requirement)**: If the indicator data was collected from a sampling frame that includes the general residential population of the local area (i.e., fishers and non-fishers, typically from census data or a community-wide survey), the code must be Code #2 (Place-based Community Focus). This acknowledges the focus is on the general socioeconomic context of the location.
+
+## 5.2 **Example of Determining Community Type Code**
+
+* **Per Capita Income**: An indicator of per capita income must be coded as Code 1 (fishery community-of-practice) if it is specified as per capita income of fishers, and it must be coded as Code 2 (place-based fishing community) if it is specified as per capita income of all members of a community.
+
+# **6.0 Unit of Observation**
+
+The following typology should be used to select the code for the **Unit of Observation** that best characterizes the **variable assessment details** of an indicator:
+
+| Code | Conceptual Scale | Definition |
+| :---: | :--- | :--- |
+| **1** | **Individual** | The assessment/scoring of the **variable** occurs at the conceptual scale of an individual person (e.g., individual fisher; individual community member). |
+| **2** | **Household** | The assessment/scoring of the **variable** occurs at the conceptual scale of a household (e.g., fisher household; all households in a community). |
+| **3** | **Sub-group** | The assessment/scoring of the **variable** occurs at the conceptual scale of a sub-group (e.g., fishers grouped into kinship groups; members of a community organization). |
+| **4** | **Community** | The assessment/scoring of the **variable** occurs at the conceptual scale of a community (e.g., all fishers in the fishing community-of-practice; all community members in a place-based fishing community). |
+| **5** | **Unclear** | The conceptual scale of **variable** assessment/scoring for this indicator is challenging to clearly locate as Code 1, Code 2, Code 3, Code 4, or Code 6 due to lack of specificity in the source text (e.g., the variable is described but not in sufficient detail to clarify the scale). |
+| **6** | **Supra-community** | The assessment/scoring of the **variable** occurs at a conceptual scale higher than that of a community (e.g., assessment of fishery governance concepts across multiple discretely defined fisheries, such as across multiple national jurisdictions; assessment of a human dimensions concepts at a macro scale beyond the scale of an individual fishery or fishing community, such as at a regional, national or international scale, warranting coding in the Human Dimensions Context primary category). |
+| **n/r** | **Not reported** | No information is available about the conceptual scale at which the **variable** was assessed/scored for this indicator (e.g., the indicator is included in the list because it was named and/or defined, but no information is presented in the source text about the **variable assessment details**). |
+| **see sub-variables** | **Outcome variable** | The indicator is an outcome variable calculated or conceptually constituted by its sub-variables, and therefore information about unit of observation of variables requires examining the sub-variables (e.g., the indicator is a composite index, latent construct, or other derived outcome, and the unit of observation would only be relevant when examining the sub-variables used to calculate it; the indicator is a categorical outcome and the unit of observation depends on the sub-variables upon which the nominal categories of the categorical outcome are conceptually based). |
+| **n/a** | **Not applicable** | The **variable concept** is coded to the Environmental Context primary category and therefore the levels of human social organization are not applicable. |
+
+## **6.1 Special Rules for Unit of Observation**
+
+### **6.1.1 Inclusion Constraints**
+
+* **6.1.1.1 Inclusion Constraint 1**: If the indicator's **Outcome type** is any form of calculated outcome (Composite index, Latent construct, Other derived outcome), a Model output, or a Categorical outcome, this column **must state "see sub-variables."**
+* **6.1.1.2 Inclusion Constraint 2**: If the indicator's Variable Type Upon Scoring is populated with an Outcome Type code (Code 5, 6, 7, 8, 10, or 11) because it represents a pre-calculated aggregate used as a baseline or model input (and Rule 6.1.1.1 does not already apply), this column must state "see sub-variables." This rule prevents analyzing the Unit of Observation for a metric that was already aggregated in a previous study or context.
+* **6.1.1.3 Inclusion Constraint 3**: If the indicator's **primary variable concept** is coded to a sub-category within the Environmental Context primary category, the levels of human social organization are not applicable and this column **must state "n/a".**
+
+### **6.1.2 Overarching Rule: Differentiating Sub-Group (3), Community (4), and Supra-community (6)**
+
+When a variable is assessed at a higher scale than individual (Code #1) or household (Code #2), e.g., if the variable is assessed at the level of a sub-group (Code #3), the entire **fishery-community of practice** or a full **place-based community** (Code #4) or at a level higher than the community (Code #6), the determination of appropriate level depends *exclusively* on how the source study defines and treats the aggregation unit.
+
+**A. Rule for Code 3 (Sub-group Level):**
+An indicator is coded as **Sub-group (3)** if the indicator focuses on a sub-unit of a larger fishery, i.e., the study's narrative explicitly or implicitly treats the sub-unit as one component of the larger fishery, and that larger fishery is treated as a **single, cohesive conceptual entity**.
+
+* **Case 3a (Place-Based): **If a group of small villages is characterized *by the study* as one cohesive place-based community, then an indicator focusing on only one of the villages is coded at the **Sub-group level (3)**.
+* **Case 3b (Community-of-Practice):** If a singular fishery is defined *by the study* as involving multiple distinct gear types, then an indicator focusing on only one of the distinct gear types is coded at the **Sub-group level (3)**.
+
+**B. Rule for Code 4 (Community Level):**
+An indicator is coded as **Community (4)** if the study's narrative explicitly or implicitly treats the aggregation of sub-units as a **single, cohesive conceptual entity**.
+
+* **Case 4a (Place-Based): **If a group of small villages is characterized *by the study* as one cohesive place-based community, then any indicator aggregating information from those villages is coded at the **Community level (4)**.
+* **Case 4b (Community-of-Practice):** If a singular fishery is defined *by the study* as involving multiple distinct gear types, then an indicator aggregating information across those gear types is coded at the **Community level (4)**.
+
+**C. Rule for Code 6 (Supra-community Level):
+An indicator is coded as **Supra-community (6)** if the study's narrative explicitly or implicitly treats the aggregation of units as a collection of **multiple, distinct conceptual entities**.
+
+* **Case 6a (Multiple Communities):** If the study characterizes a group of villages as each constituting its own *distinct place-based fishing community*, then an indicator aggregating information from all villages must be coded as **Supra-community (6)**.
+* **Case 6b (Multiple Fisheries):** If the study defines each gear group as its own, *separate fishery*, then an indicator combining information from all these separate fisheries must be coded as **Supra-community (6)**.
+
+**Principle of Scope:** Code 6 will typically be reserved for studies with regional, national, or international focus, or for studies that look across conceptual units (communities or fisheries) that are explicitly managed or analyzed separately from one another.
+
+### 6.1.3 **Rules for Data Collection Methods (Codes 1, 3, and 4)**
+The selection among Individual (1), Sub-group (3), and Community (4) is determined by the variable assessment method described in the source text, specifically whether the assessment targets a single unit, a designated component, or the entire collective unit.
+
+* **Rule 6.1.3.1 Individual Level (Code 1)**: If the **variable assessment details** involved direct, non-aggregated assessment of a single individual (e.g., measuring catch volume per fishing trip, surveying a single fisher), the indicator must be coded as Unit of Observation Code 1 (Individual level).
+* **Rule 6.1.3.2 Sub-group Level (Code 3)**: If the **variable assessment details** involved direct assessment applied collectively to a pre-defined subset or component of the community (e.g., a single survey conducted only with members of one gear group, a single estimate provided only for one specific village/location within the overall community), the indicator must be coded as Unit of Observation Code 3 (Sub-group level).
+* **Rule 6.1.3.3: Community Level (Code 4)**: If the **variable assessment details** involved a single, direct assessment applied to the entire collective unit (e.g., a complete census of the fishery, a single expert estimate of the total harvest for the whole community or fishery), the indicator must be coded as Unit of Observation Code 4 (Community level).
+
+## 6.2 **Examples of Determining Unit of Observation**
+
+| Primary Variable Concept | Variable Assessment Details | Unit of Observation Code | Unit of Observation Description |
+|---|---|---|:---:|---|
+| Harvest volume | Volume of catch delivered by individual fishers | 1 | Individual level |
+| Harvest volume | Expert estimate of total volume harvested by a single gear group, where multiple gear groups are defined as included within the overall aggregation unit for the fishery | 3 | Sub-group level |
+| Harvest volume | Expert estimate of the total volume harvested in the fishery overall | 4 | Community level |
+| Harvest volume | Total volume of catch of a specific target species that is received by processing plants, where the aggregation unit for the fishery is defined by that single target species | 4 | Community level |
+
+# **7.0 Unit of Analysis**
+
+The following typology should be used to select the best code for the **Unit of Analysis** of the **indicator topic**:
+
+| Code | Conceptual Scale | Definition |
+| :---: | :--- | :--- |
+| **1** | **Individual** | The presentation of the **indicator topic** occurs at the conceptual scale of an individual person (e.g., individual fisher; individual community member). |
+| **2** | **Household** | The presentation of the **indicator topic** occurs at the conceptual scale of a household (e.g., fisher household; all households in a community). |
+| **3** | **Sub-group** | The presentation of the **indicator topic** occurs at the conceptual scale of a sub-group (e.g., fishers grouped into kinship groups; members of a community organization). |
+| **4** | **Community** | The presentation of the **indicator topic** occurs at the conceptual scale of a community (e.g., all fishers in the fishing community-of-practice; all community members in a place-based fishing community). |
+| **5** | **Unclear** | The conceptual scale of **indicator topic** presentation is challenging to clearly locate as Code 1, Code 2, Code 3, Code 4, or Code 6 due to lack of specificity in the source text (e.g., the indicator is named but no information is presented about its assessment/scoring or final presentation). |
+| **6** | **Supra-community** | The presentation of the **indicator topic** occurs at a conceptual scale higher than that of a community (e.g., representing fishery governance concepts across multiple discretely defined fisheries, such as across multiple national jurisdictions; representing a human dimensions concept at a macro scale beyond the scale of an individual fishery or fishing community, such as at a regional, national or international scale, warranting coding in the Human Dimensions Context primary category). |
+| **n/r** | **Not reported** | No information is available about the conceptual scale at which the **indicator topic** was presented (e.g., the indicator is included in the list because it was named and/or defined, but no information is presented in the source text about the final presentation of the indicator). This may be the case if either 1. no variable assessment details were included, or 2. the variable assessment details were included but there was no final presentation of the indicator beyond initial scoring/assessment information. |
+| **n/a** | **Not applicable** | The **indicator topic** is coded to the Environmental Context primary category and therefore the levels of human social organization are not applicable. |
+
+## **7.1 Special Rules for Unit of Analysis**
+
+### **7.1.1 Exclusion and Default Constraints**
+
+* **Rule 7.1.1.1 Exclusion Constraint (Environmental Context)**: If the **Indicator Topic** is coded to any sub-category within the Environmental Context primary category, the Unit of Analysis column must state "n/a." This constraint applies because environmental characteristics are not relevant to measuring or interpreting the scale of human social organization.
+* **Rule 7.1.1.2 Default Constraint (Fishery Governance)**: If the **Indicator Topic** is coded to a sub-category within the Fishery Governance System Characteristics or Fishery Governance System Performance primary categories, the indicator **defaults to the Community level (Code 4)**. This default applies **only if** the final presentation of the indicator (as determined by Rules 7.1.2 and 7.1.3) does **not** clearly specify the scale of presentation as Individual (Code 1), Household (Code 2), Sub-group (Code 3), or Supra-community (Code 6). This is because fishery governance systems are inherently designed to manage the entire fishery-community-of-practice unless stated otherwise.
+* **Rule 7.1.1.3 Default Constraint (Human Dimensions Context)**: If the **Indicator Topic** is coded to any sub-category within the Human Dimensions Context primary category, the indicator **defaults to the Supra-community level (Code 6).** This default applies **only if** the source text **does not** clearly specify the scale of presentation as Individual (Code 1), Household (Code 2), Sub-group (Code 3), or Community (Code 4). This is because the Human Dimensions Context is inherently designed to emphasize macro-scale factors (regional, national, international) that typically transcend an individual fishery community-of-practice or an individual place-based fishing community scale.
+
+### **7.1.2 Definitive Rule: Differentiating Scale of Presentation (Codes 1, 3, 4, and 6)**
+When the presentation of an indicator is at a scale higher than Household (Code #2), the determination of the appropriate level depends exclusively on how the source study defines and treats the final aggregation unit.
+
+* **Note on Aggregation**: This rule applies when the initial data collection (Unit of Observation) is at the individual level (Code #1) or household level (Code #2) but is then aggregated for final presentation.
+
+**A. Rule for Code 3 (Sub-group Level):**
+An indicator is coded as **Sub-group (3)** if the indicator focuses on a sub-unit of a larger fishery, i.e., the study's narrative explicitly or implicitly treats the sub-unit as one component of the larger fishery, and that larger fishery is treated as a **single, cohesive conceptual entity**.
+
+* **Case 3a (Place-Based): **If a group of small villages is characterized *by the study* as one cohesive place-based community, then an indicator focusing on only one of the villages is coded at the **Sub-group level (3)**.
+* **Case 3b (Community-of-Practice):** If a singular fishery is defined *by the study* as involving multiple distinct gear types, then an indicator focusing on only one of the distinct gear types is coded at the **Sub-group level (3)**.
+
+**B. Rule for Code 4 (Community Level):**
+An indicator is coded as **Community (4)** if the study's narrative explicitly or implicitly treats the aggregation of sub-units as a **single, cohesive conceptual entity**.
+
+* **Case 4a (Place-Based): **If a group of small villages is characterized *by the study* as one cohesive place-based community, then any indicator aggregating information from those villages is coded at the **Community level (4)**.
+* **Case 4b (Community-of-Practice):** If a singular fishery is defined *by the study* as involving multiple distinct gear types, then an indicator aggregating information across those gear types is coded at the **Community level (4)**.
+
+**C. Rule for Code 6 (Supra-community Level):
+** An indicator is coded as **Supra-community (6)** if the study's narrative explicitly or implicitly treats the aggregation of units as a collection of **multiple, distinct conceptual entities**.
+
+* **Case 6a (Multiple Communities):** If the study characterizes a group of villages as each constituting its own *distinct place-based fishing community*, then an indicator aggregating information from all villages must be coded as **Supra-community (6)**.
+* **Case 6b (Multiple Fisheries):** If the study defines each gear group as its own, *separate fishery*, then an indicator combining information from all these separate fisheries must be coded as **Supra-community (6)**.
+
+**Principle of Scope:** Code 6 will typically be reserved for studies with regional, national, or international focus, or for studies that look across conceptual units (communities or fisheries) that are explicitly managed or analyzed separately from one another.
+
+### 7.1.3 **Rule for Aggregation vs. Non-Aggregation (Codes 1, 3, and 4)**
+
+The selection of the scale of presentation, either Individual (1), Sub-group (3), or Community (4), is determined by the final form of the indicator:
+
+* **Rule 7.1.3.1: Individual Level (Code 1)**: If the **Indicator Topic** is Harvest volume and the final presentation of the indicator lists the individual catch volume of individual fishers (i.e., data is presented per fisher, not aggregated across fishers), the indicator must be coded as Unit of Analysis Code 1 (Individual level).
+
+* **Rule 7.1.3.2: Sub-group Level (Code 3)**: If the **Indicator Topic** is Harvest volume and the final presentation of the indicator lists the total catch OR a summary statistic aggregated only across a defined sub-group of fishers (e.g., total harvest of only the longline fleet), the indicator must be coded as Unit of Analysis Code 3 (Sub-group level).
+* **Rule 7.1.3.3: Community Level (Code 4)**: If the Indicator Topic is Harvest volume and the final presentation of the indicator lists the total catch in the fishery overall, OR a summary statistic (like average or median) aggregated across all individual fishers in the defined fishery/community, the indicator must be coded as Unit of Analysis Code 4 (Community level).
+
+## **7.2 Examples of Coding for Unit of Analysis**
+
+| Indicator Topic | Variable Assessment Details | Final Presentation of Indicator | Unit of Analysis Code | Unit of Analysis Description |
+|---|---|---|:---:|---|
+| Harvest volume | Volume of catch by individual fishers by fishing trip | Total volume of catch by each fisher | 1 | Individual level |
+| Harvest volume | Volume of catch by individual fishers in a fishery characterized by multiple gear groups | Total harvest volume caught by fishers in a specific gear group | 3 | Sub-group level |
+| Harvest volume | Volume of catch by individual fishers | Total catch in the fishery overall | 4 | Community level |
+| Harvest volume | Volume of catch by individual fishers | Average catch per fisher | 4 | Community level |
+| Harvest volume | Expert estimate of total catch in a fishery | Total catch in the fishery overall | 4 | Community level |
+| Harvest volume | Expert estimate of total catch by gear group | Total catch in the fishery overall | 4 | Community level |
+| Harvest volume | Expert estimate of total catch in a fishery | Total harvest volume across multiple distinct fisheries | 6 | Supra-community level |
+
+# **8.0 Indicator Action**
+
+The following typology should be used to select the best code for the **Indicator Action** of the indicator:
+
+| Code | Action | Definition |
+| :---: | :--- | :--- |
+| **1** | **Evaluation** | The indicator is being used in this study to evaluate a fishery (e.g., assessment or evaluation using information from a real fishery). |
+| **2** | **Development/testing** | This indicator is being developed or tested to support its future use in assessment or evaluation of a real-world fishery. |
+| **3** | **Undetermined** | Information is reported about the use of the indicator, but it is not clear whether Code #1 and/or Code #2 is relevant to this indicator. |
+| **n/r** | **Not reported** | No information is reported in the source text regarding whether the indicator is being used for assessment/evaluation of a fishery and/or whether the indicator is being tested and refined to support its future use in assessment/evaluation. |
+
+## **8.1 Special Rules for Indicator Action**
+
+### **Rule 8.1.1 Non-Exclusivity (Evaluation and Development/Testing)**: Codes 1 (Evaluation) and 2 (Development/testing) are not mutually exclusive and may be applied simultaneously to the same indicator if the study's narrative supports both actions. An indicator may be used to evaluate a real fishery in the current study (Code 1) and may simultaneously be the focus of methodological testing, refinement, or initial development intended for future application (Code 2). If both actions are documented, the final code for the indicator should be recorded as "1; 2".
+
+### **Rule 8.1.2 Action Cascade Rule**: If an indicator (Y) is coded as an Outcome Type Code 6, 7, 8, 10, or 11 then:
+
+1. **Direct Inputs Must Inherit**: All immediate constitutive sub-variables (X) listed in Y's Associated Sub-variable column (Table 2) must receive the same Indicator Action code(s) (Evaluation = Code 1; Development/testing = Code 2) as the associated outcome variable.
+2. **Transitivity**: This inheritance must cascade down the entire chain until a variable is reached that has an Outcome Type of n/r, 5, 12, or a Basic Variable Type (1-4). (Example: If Composite Index $\text{C}$ (Output) is Code 2, and $\text{C} = \text{A} + \text{B}$, then both $\text{A}$ and $\text{B}$ must also be Code 2.)
+
+# **9.0 Empirical vs Modeled (Data Source 1)**
+
+The following typology should be used to select the best code for the **Empirical vs Modeled (Data Source 1)** of the indicator:
+
+| Code | Empirical vs Modeled (Data Source 1) Type | Definition | Special Instructions |
+| :---: | :--- | :--- |:--- |
+| **1** | **Empirical** | The indicator's assessed value is based directly on **real-world measured or collected data** (e.g., field measurements, survey results, baseline estimates, or descriptive statistics derived directly from measured data). | If the indicator is an outcome variable coded as **outcome type** 6, 7, 8, or 11, AI must code the indicator as **Empirical** (Code 1) **ONLY if** all associated sub-variables received Code 1 in the Empirical vs. Modeled column. |
+| **2** | **Modelled** | The indicator's assessed value is the **product or output of a complex mathematical or statistical simulation**, including dynamic system models (e.g., bio-economic, ecosystem dynamics, forecasting). | If the indicator is an outcome variable coded as **outcome type** 6, 7, 8, or 11, AI must code the indicator as **Modeled** (Code 2) if one or more of its associated sub-variables received Code 2 in the Empirical vs. Modeled column. This rule ensures consistency with the Model Output inheritance rule described in the definition of Outcome Type code 10 (Model Output) in the section [3.2 Outcome Variable Types](#32-outcome-variable-types). |
+| **3** | **Undetermined** | Information is reported about the indicator, but the distinction between an input (Empirical) source and a generative output (Modelled) source cannot be clearly established. | If the indicator is an outcome variable coded as **outcome type** 6, 7, 8, or 11, AI must code the indicator as **Undetermined** (Code 3) if a. no associated sub-variables are coded as “Modeled” (Code 2) and b. at least one associated sub-variable received the entry “undetermined” (Code 3) or "n/r" in the Empirical vs Modeled column. |
+| **n/r** | **Not reported** | No information is reported in the source text regarding whether the assessed value of the indicator is an input (Empirical) source and a generative output (Modelled) source. | |
+
+## **9.1 Special Rules for Empirical vs Modeled (Data Type 1)**
+
+### **Rule 9.1.1 Outcome Type Symmetry Rule for Modeled Indicators**: If the Outcome type for this indicator includes Code 10 (Model output) from the Outcome Type typology in section [3.2 Outcome Variable Types](#32-outcome-variable-types), the Data Type **must be symmetrically coded as Modeled** (Code 2).
+
+# **10.0 Primary vs Secondary (Data Source 2)**
+
+The following typology should be used to select the best code for the **Primary vs Secondary (Data Source 2)** of the indicator:
+
+| Code | Primary vs Secondary (Data Source 2) Type | Definition | Special Instructions |
+| :---: | :--- | :--- | :--- |
+| **1** | **Primary** | The information used to assess/score this indicator was gathered through primary data collection). | If the indicator is an outcome variable coded as **outcome type** 6, 7, 8, or 11, AI must code the indicator as **Primary** (Code 1) **ONLY if** both the following conditions are met: a. all associated sub-variables received Code 1 in the Primary vs. Secondary column, and b. no associated sub-variables were modeled (Code 2 in the Empirical vs Modeled column). |
+| **2** | **Secondary** | The information used to assess/score this indicator was drawn from previously existing data source(s). | If the indicator is an outcome variable coded as **outcome type** 6, 7, 8, or 11, AI must code the indicator as **Secondary** (Code 2) **ONLY if** both of the following conditions are med: a. all associated sub-variables received Code 2 in the Primary vs. Secondary column and b. no associated sub-variables were modeled (Code 2 in the Empirical vs Modeled column). |
+| **3** | **Statistically derived** | The indicator's assessed value is the product or output of a complex mathematical or statistical simulation, including dynamic system models (e.g., bio-economic, ecosystem dynamics, forecasting). | |
+| **4** | **Undetermined** | Information is reported about the data source of the indicator, but the distinction between primary empirical data, secondary data, or statistically derived values cannot be clearly established. | If the indicator is an outcome variable coded as **outcome type** 6, 7, 8, or 11, AI must code the indicator as **Undetermined** (Code 4) if either of the following conditions is met: a. associated sub-variables received a combination of codes 1 and 2 in the column Primary vs Secondary, or b. at least one associated sub-variable received the entry "undetermined" (Code 4) or "n/r" in the Primary vs Secondary column. |
+| **n/r** | **Not reported** | No information is reported in the source text regarding whether the assessed values of the indicator draws from primary empirical data, secondary data, or are statistically derived. | |
+
+## **10.1 Special Rules for Primary vs Secondary (Data Source 2)**
+
+### **Rule 10.1.1 Data Type Symmetry Rule (Statistically Derived)**: If the **Empirical vs Modeled (Data Source 1)** column in section [9.0 Empirical vs Modeled (Data Source 1)](#90-empirical-vs-modeled-data-source-1) for this indicator is coded as Modelled (Code 2), this Data Source 2 column must be symmetrically coded as Statistically derived (Code 3).
+
+### **Rule 10.1.2 Empirical Constraint**: If the **Empirical vs Modeled (Data Source 1)** column in section [9.0 Empirical vs Modeled (Data Source 1)](#90-empirical-vs-modeled-data-source-1) for this indicator is coded as Empirical (Code 1), the Data Source 2 column must be coded as either Primary (Code 1) or Secondary (Code 2). It cannot be coded as Statistically derived (Code 3).
+
+## **10.2 Examples of Coding for Primary vs Secondary (Data Source 2)**
+
+| Example | Primary vs Secondary (Data Source 2) Type | Correct Data Source 2 Code |
+|---|---|:---:|
+| Logbook with data recorded by fishers | Secondary | 2 |
+| Interviews with fishers about what they have recorded in their logbooks | Primary | 1 |
+| Responses to a survey instrument implemented for this specific study | Primary | 1 |
+| Responses to a survey instrument that was implemented for a previous study and the dataset is now being used for this study | Secondary | 2 |
+| Census data | Secondary | 2 |
+| Latent classes derived through latent class analysis | Statistically derived | 3 |
+
+# **15.0 Asked/stated vs Measured/observed (Data Source 3)**
+
+The following typology should be used to select the best code for the **Asked/stated vs Measured/observed (Data Source 3)** of the indicator:
+
+| Code | Asked/stated vs Measured/observed (Data Source 3) Type | Definition | Special Instructions |
+| :---: | :--- | :--- | :--- |
+| **1** | **Asked/stated** | The information used to assess/score this indicator was derived through direct interaction with human subjects (e.g., asking people about to state their preferences or for them to report personal or localized knowledge of fish stocks or sales, etc.). | 1. **Special Instruction 1 (Secondary Data)**: If the indicator is assessed/scored based on secondary data (i.e., **Primary vs Secondary** is coded as Secondary based on the typology in section [10.0 Primary vs Secondary (Data Source 2)](100-primary-vs-secondary-data-source-2), then determination of the Asked/stated vs Measured/observed (Data Source 3) code **must consider whether the original data collection involved interaction with human subjects**; 2. **Special Instruction 2 (Outcome Types 6, 7, 8, and 11)**: If the indicator is an outcome variable coded as **outcome type** 6, 7, 8, or 11, AI must code the indicator as **Asked/stated** (Code 1) **ONLY if** both the following conditions are met: a. all associated sub-variables received Code 1 in the Asked/stated vs Measured/observed column, and b. no associated sub-variables were modeled (Code 2 in the Empirical vs Modeled column). |
+| **2** | **Measured/observed** | The information used to assess/score this indicator was derived through direct observation or measurement (e.g., participant observation with fieldnotes, or biological/ecological measurements, etc.). | 1. **Special Instruction 1 (Secondary Data)**: If the indicator is assessed/scored based on secondary data (i.e., **Primary vs Secondary** is coded as Secondary based on the typology in section [10.0 Primary vs Secondary (Data Source 2)](100-primary-vs-secondary-data-source-2),  then determination of the Data Source 3 code **must consider whether the original data collection involved direct measurement or observation by researchers**; 2. **Special Instruction 2 (Outcome Types 6, 7, 8, and 11)**: If the indicator is an outcome variable coded as **outcome type** 6, 7, 8, or 11, AI must code the indicator as **Measured/observed** (Code 2) **ONLY if** both of the following conditions are med: a. all associated sub-variables received Code 2 in the Asked/stated vs Measured/observed column and b. no associated sub-variables were modeled (Code 2 in the Empirical vs Modeled column). |
+| **3** | **Statistically derived** | The indicator's assessed value is the product or output of a complex mathematical or statistical simulation, including dynamic system models (e.g., bio-economic, ecosystem dynamics, forecasting). | |
+| **4** | **Undetermined** | Information is reported about the data source of the indicator, but the distinction of the data source as either involving interaction with human subjects, involving direct measurements and observations, or being statistically derived values cannot be clearly established. | If the indicator is an outcome variable coded as **outcome type** 6, 7, 8, or 11, AI must code the indicator as **Undetermined** (Code 4) if either of the following conditions is met: a. associated sub-variables received a combination of codes 1 and 2 in the column Asked/stated vs. Measured/observed, or b. at least one associated sub-variable received the entry “undetermined” (Code 4) or “n/r” in the Asked/stated vs Measured/observed column. |
+| **n/r** | **Not reported** | No information is reported in the source text regarding whether the assessed values of the indicator were derived from interaction with human subjects, direct measurements or observations, or are statistically derived. | |
+
+## **15.1 Special Rules for Asked/stated vs Measured/observed (Data Source 3)**
+
+### **Rule 15.1.1 Data Source 3 Symmetry Rule (Statistically Derived)**: If the **Empirical vs Modeled (Data Source 1)** column in section [9.0 Empirical vs Modeled (Data Source 1](#90-empirical-vs-modeled-data-source-1) for this indicator is coded as Modelled (Code 2), this Data Source 3 column must be symmetrically coded as Statistically derived (Code 3).
+
+### **Rule 15.1.2 Empirical Constraint**: If the **Data Source 1** column in section [9.0 Data Source 1 Empirical vs Modeled)(#90-data-source-1-empirical-vs-modeled) for this indicator is coded as **Empirical (Code 1)**, the **Data Source 3** column **must be coded as either Asked/stated (Code 1) or Measured/observed (Code 2).** It cannot be coded as Statistically derived (Code 3).
+
+## **15.2 Examples of Coding for Asked/stated vs Measured/observed (Data Source 3)**
+
+| Example | Asked/stated vs Measured/observed (Data Source 3) Type | Correct Data Source 3 Code |
+|---|---|:---:|
+| Researchers carry out primary data collection interviews with fishers regarding information contained in fishers’ logbooks | Asked/stated | 1 |
+| Researchers rely on secondary information from a previous study which reported results from interviews with fishers regarding information contained in the fishers’ logbooks | Asked/stated | 1 |
+| Researchers review fisher logbooks directly (secondary data), and know that the logbook data represent direct observations and measurements recorded by the fishers | Measured/observed | 2 |
+| Researchers carry out participant observation and make field notes that they then use as a basis for indicators | Measured/observed | 2 |
+| Researchers ask sellers at a fish market about how their prices have changed between last year and this year | Asked/stated | 1 |
+| Changes in real-time market prices written down by a researcher to create a record of real-time price fluctuations | Measured/observed | 2 |
+| Latent classes derived through latent class analysis | Statistically derived | 3 |
+
+## **16.8 Table 7 Specifications**
+
+Using the same list of indicators generated in Table 1, the AI must populate Table 7 with a set of attributes of the indicator list across a series of columns. Creation of Table 7 must follow the **Validation Rule** in section [16.1 Rules for All Tables](#161-rules-for-all-tables).
+
+### **16.8.1 Table 7 Special Rules**
+
+* **Rule 1: Data Source Consistency Check (Empirical/Derived)**: For indicators coded Derived in the $\mathbf{Unit \ of \ Observation}$ column, the corresponding $\mathbf{Data \ Source \ 2}$ and $\mathbf{Data \ Source \ 3}$ columns must be populated with Code $\mathbf{2}$ (Secondary) or Code $\mathbf{3}$ (Statistically derived) to reflect that the data presented were processed or aggregated, even if the raw data source was primary.
+* **Rule 2: Scale Exclusion Sync**: Ensure that whenever $\mathbf{n/a}$ is present in the $\mathbf{Unit \ of \ Observation}$ column (for Environmental Context variables, per Rule 6.1.1.3), it is symmetrically applied in the $\mathbf{Unit \ of \ Analysis}$ column (per Rule 7.1.1.1).
+
+### **16.8.2 Table 7 Column Specifications**
+
+The AI **must use the same indicator order and numbering for Table 7 as was included in the final Table 1 output.** Following the column with the indicator name, **the following attributes must each be included in their own column**:
+
+1. **Community Type**: In this column, if the indicator involves a variable that is directly assessed, the AI **must indicate the **community type** of the indicator, using the community types outlined in the section [5.0 Community Type](#50-community-type). If the Outcome Type for this indicator is recorded as a calculated outcome (composite index, latent construct, or other derived outcome), a model output, or a categorical outcome, the AI must determine the Community Type based on the indicator's constitutive sub-variables. If sub-variables have differing Community Types, the AI should code the most frequently occurring type among the immediate inputs.
+
+    * **Inclusion Constraint**: If both the **variable concept** and the **indicator topic** of this indicator were coded to sub-categories located within the Environmental Context **primary category**, this column **must state "n/a."**
+
+2. **Unit of Observation**: In this column, if the indicator involves a variable that is directly assessed, indicate the unit of observation for the variable following instructions in section [6.0 Unit of Observation](#60-unit-of-observation). If the indicator is identified as one of the Outcome Variable Types included in section [3.2 Outcome Variable Types](#32-outcome-variable-types], the AI **must record "see sub-variables"** in this column, following the constraints outlined in section [6.0 Unit of Observation](#60-unit-of-observation).
+
+3. **Unit of Analysis**: Based on available information in the source text regarding **variable assessment details** as defined in section [2.0 Instructions for Identifying Relevant Indicators](#20-instructions-for-identifying-relevant-indicators), as well as the **Outcome Type** and **Variable Type of Outcome** as defined in section [3.3 Variable Types at Different Points in Time](#33-variable-types-at-different-points-in-time), the AI must determine the appropriate Unit of Analysis code (1-6) by checking the final presentation of the indicator, following all constraints in section [7.0 Unit of Analysis](#70-unit-of-analysis).
+
+4. **Indicator Action**: In this column, AI must record the most accurate code or codes from the Indicator Action code typology provided in section [8.0 Indicator Action](#80-indicator-action). Indicator Action Code 1 (Evaluation) and Code 2 (Development/testing) **are not mutually exclusive.**
+
+5. **Empirical vs Modeled**: In this column, AI must record the most accurate code or codes from the Empirical vs Modeled (Data Source 1) code typology provided in section [9.0 Empirical vs Modeled (Data Source 1)](#90-empirical-vs-modeled-data-source-1). Code 1 (Empirical) and Code 2 (Modeled) **are mutually exclusive.**
+
+6. **Primary vs Secondary**: In this column, AI must record the most accurate code or codes from the Primary vs Secondary (Data Source 2) code typology provided in section [10.0 Primary vs Secondary (Data Source 2)](100-primary-vs-secondary-data-source-2). Code 1 (Primary) and Code 2 (Secondary) **are mutually exclusive.**
+
+7. **Asked/stated vs Measured/observed (Data Source 3)**: In this column, AI must record the most accurate code or codes from the Asked/stated vs Measured/observed (Data Source 3) code typology provided in section [15.0 Asked/stated vs Measured/observed (Data Source 3)](150-asked-stated-vs-measured-observed-data-source-3). Code 1 (Asked/stated) and Code 2 (Measured/observed) **are mutually exclusive.**
+
+8. ** Target Population/Data Collection Rationale (Consolidated)**: A unified rationale justifying the codes selected in Column 1 (**Community Type**), Column 2 (**Unit of Observation**), Column 3 (**Unit of Analysis**), Column 6 (**Empirical vs Modeled**), Column 7 (**Primary vs Secondary**), and Column 8 (**Asked/stated vs Measured/observed**).
+
+9. **Aquaculture Relevance Code**: In this column, the AI must assign one or more numerical codes (1, 2, 3, or 4) or "n/a" that accurately reflect the indicator's thematic or methodological relationship to the aquaculture context as described in the source article. The typology is defined as follows:
+
+| Code | Relevance Description | Definition | Rule/Mandate |
+| :---: | :--- | :--- |
+| 1 | Applied to evaluate an aquaculture context | The indicator was explicitly measured or scored within the current study to evaluate the performance or status of a real-world aquaculture case, project, or system (e.g., scoring a salmon farm's profitability).| Strict Mandate: Must be tied to the measurement/data collection of a confirmed aquaculture unit in the source article. If no aquaculture case is scored, Code 1 must be $\mathbf{n/r}$. |
+| 2 | Developed for future use in an aquaculture context | The study's primary objective or major recommendations section focuses on proposing or testing the metric's methodological validity for assessing aquaculture (e.g., building a new fish health index for aquaculture; informing recommendations, development strategies, or scenario planning specifically targeting the growth, viability, or scaling up of the aquaculture niche). | Focuses on Methodology: The study is using the indicator to recommend future use or tool development specific to the aquaculture niche. |
+| 3 | Some other relevance | The indicator is a direct methodological analog (structurally identical/transferable) to a core aquaculture metric OR provides essential socio-economic/environmental context for the aquaculture niche, even if not explicitly used for aquaculture planning in the study. | Captures Transferability & Context: Used for universal metrics (e.g., labor wages, legal rights structure, chronic pollution) that are essential for evaluating any seafood system. |
+| 4 | Tangential other | The indicator's relevance is purely external or incidental to the primary findings and methodology of the study, and is noted only for compliance or high-level thematic completeness. | Captures Incidental Mention: Used for relevance that is weak or non-substantive (e.g., used only for journal scope reference). |
+| n/a | Not relevant | The indicator is exclusively focused on a competing, specific non-aquaculture methodology (e.g., specific capture gear types, capture stock status) and offers no significant contextual overlap or direct methodological transferability. | Captures Exclusion: Used for indicators that are too specific to the competitive/alternative activity. |
+
+**Non-Exclusivity Rule**: Codes 1, 2, 3, and 4 are not mutually exclusive and should be listed together (e.g., "1; 2; 3") if applicable.
+
+10. **Aquaculture Code Rationale**: In this column, the AI must provide a concise justification for the assignment of the Aquaculture Code(s) in the preceding column. The rationale must explicitly connect the selected code(s) to the indicator's purpose, the research findings, or the recommendations regarding the aquaculture niche in the source article. Format Constraint: The rationale should briefly state the indicator's role (e.g., "Measures direct investment constraint on fish farming," or "Indicator is a macro-economic driver whose negative outcome (low prices) constrains the aquaculture niche")." |
+| MILESTONE DELTA | "Here is Section 16.9 again. Use this for P30:
+
+## **16.9 Table 8 Specifications (Conceptual Topic and Feedback)**
+Using the same list of indicators generated in Table 1, the AI must populate Table 8 by compiling the final data on the Indicator Topic and all associated qualitative feedback from Table 3. Creation of Table 8 must follow the Validation Rule in section [16.1 Rules for All Tables](#160-rules-for-all-tables).
+
+### **16.9.1 Table 8 Column Specifications**
+The AI must use the same indicator order and numbering for Table 8 as was included in the final Table 1 output. Following the column with the indicator name, the following attributes must each be included in their own column:
+
+**Sub-category (Indicator Topic)**: The exact wording of the conceptual sub-category representing the indicator's **conceptual representation target**, compiled from Tables 3 and 4.
+
+**Definition Match (Indicator Topic)**: The specific words or phrases from the source text that justify the sub-category selection for the indicator topic, including any required suggestions for additions to the definition (see Protocol 16.3.1).
+
+**Conceptual Distinction Issues (Indicator Topic)**: The documented qualitative feedback describing any ambiguity, lack of clarity, or conceptual overlap encountered during matching, compiled from Tables 3 and 4.
+
+**Suggested Definition Edits (Indicator Topic)**: The actionable advice and specific text modifications intended to resolve ambiguities or overlaps in the GIP's typology, compiled from Tables 3 and 4.
+
+**Sub-category (Primary Variable Concept)**: The exact wording of the conceptual sub-category representing the indicator's **primary conceptual assessment target**, compiled from Tables 3 and 4.
+
+**Definition Match (Primary Variable Concept)**: The specific words or phrases from the source text that justify the sub-category selection for the primary variable concept, including any required suggestions for additions to the definition (see Protocol 16.3.1).
+
+**Conceptual Distinction Issues (Primary Variable Concept)**: The documented qualitative feedback describing any ambiguity, lack of clarity, or conceptual overlap encountered during matching, compiled from Tables 3 and 4.
+
+**Suggested Definition Edits (Indicator Topic)**: The actionable advice and specific text modifications intended to resolve ambiguities or overlaps in the GIP's typology, compiled from Tables 3 and 4."
+```
+
+================================================== **END OF REFERENCE BLOCK**
