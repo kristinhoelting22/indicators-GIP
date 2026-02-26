@@ -1,27 +1,40 @@
-The following is the Global Instruction Preamble (GIP) containing the technical definitions and the operational prompt sequence in Section 18.0. Please ingest this entire document. Once ingested, execute P1 from Section 18.0 to begin the session:
+# OVERVIEW:
 
-The following is the Global Instruction Preamble (GIP) containing the technical definitions and the operational prompt sequence in Section 18.0. Note that the prompts skip from 18, 18.1, and 18.2 to 26, and that is ok - do not look for the missing prompts as those have been removed for the purpose of this session.  Please ingest this entire document. Once ingested, execute P1 from Section 18.0 to begin the session:
+## Goal to Produce a series of outputs
 
-Here is the article for P2. When you review, please let me know whether there is reference to any supplemental materials I should identify and provide in P3. Otherwise, proceed to P4.
+This file describes the series of steps to run prompts and produce desired outputs using Google Gemini Pro. Outputs include:
+* a series of 8 Tables providing a list of indicators identified within the article and a series of attributes of each indicator (see Section 16.0 in the file "Global Instruction Preamble.md"), and
+* two relationship-mapping flow charts that help clarify a) constitutive relationships, i.e., which indicators act as sub-variables constitutive of outcome variables, and b) predictive relationshpis, i.e., which indicators act as relating variables in various types of statistical or non-statistical and directional or non-directional X-Y relationships.
 
-Here are the referenced supplemental materials. After you ingest these, please confirm whether or not they are the supplemental materials you were looking for. Then proceed to P4.
+## Steps to carry out the prompts in Section 18.0 of the "Global Instruction Premable.md"
 
-Here is the human-identified indicator list for integration in P5. If you make any adjustments to the original AI extracted list, please explain the changes and whether or not you agree with them:
+The following are steps to follow to execute the prompts, with contextualizing information and occasional state refreshes (using files titled "Milestone Alpha Prompt 16," "Milestone Beta Prompt 19", "Milestone Gamma Prompt 26" and "Milestone Delta Prompt 28".)
 
-For those indicators in the original human-identified list that you have identified for removal, please retain them in the final indicator list but add [REMOVED] in the title of the indicator. Please continue collecting information about them throughout the rest of the process. For those indicators from the AI list (not originally on the human-identified list) that you have identified for removal, proceed with full removal from the list moving forward.
+* Step 1. Begin a fresh session of Google Gemini Pro. This is important because retaining memory from previous sessions can lead the AI to incorporate indicators from previous articles or associate incorrect attributes.
+* Step 2. As an orienting prompt for the new Gemini session, insert the quoted text, followed by the entire contents of the file "Global Instruction Preamble.md": "The following is the Global Instruction Preamble (GIP) containing the technical definitions and the operational prompt sequence in Section 18.0. Please ingest this entire document. Once ingested, execute P1 from Section 18.0 to begin the session: [Paste in full GIP text]"
+* Step 3. When prompted by AI for prompt 2 (P2), provide the article from which you will be extracting indicators and insert the quoted text: "Here is the article for P2. When you review, please let me know whether there is reference to any supplemental materials I should identify and provide in P3. Otherwise, proceed to P4."
+* Step 4. If supplemental materials exist, attach pdfs and insert the quote text: "Here are the referenced supplemental materials. After you ingest these, please confirm whether or not they are the supplemental materials you were looking for. Then proceed to P4."
+* Step 5 (This is best practice to improve trustworthiness of the indicator list). Review the article and provide a seed list of indicators you know should be included in the AI generated list. Preface the human-identified indicator list with the following text: "Here is the human-identified indicator list for integration in P5. If you make any adjustments to the original AI extracted list, please explain the changes and whether or not you agree with them: [insert human-identified indicator list]
+* Step 6. Iteratively run Prompts 6 through 15.  Recommended text to insert for each:  "Run P6," "Run P7," "Run P8," etc.
+* Step 7. Copy and paste the Table 1 indicator list output produced in P15 into a spreadsheet, and review to determine whether there are any issues that need to be corrected, For example, if you know that raw continuous/count data were transformed into ordinal rankings, but AI has not recorded pre-scoring variable type associated with the raw data, point this out to the AI and ask it to fill in those details. As another example, if AI has identified a ratio calculation, e.g., catch per unit effort, as a composite index outcome type, but you feel the outcome type "other derived outcome" is a better fit, point this out to AI and ask it to make corrections. It is best to make sure AI integrates any necessary updates, rather than simply making corrections manually in your saved Table output. This ensures corrections inform later Table outputs.
+* Step 8. Milestone Alpha State Refresh. Copy and paste the entirety of the file titled "Milestone Alpha Prompt 16, which includes the instruction for AI to run P16."
+* Step 9. Run Prompts 17 and 18. Recommended text to insert for each:  "Run P17," "Run P18."
+* Step 10. Copy and paste the Table 2 output from P18 into the spreadsheet, and review for obvious concerns. After asking clarifying questions and requesting corrections (if necessary), copy the final Table 2 output.
+* Step 11. Milestone Beta State Refresh. Copy and paste the entirety of the file titled "Milestone Beta Prompt 19, which includes the instruction for AI to run P19."
+* Step 12. Copy and paste the Table 3 output from P19 into the spreadsheet, and review for obvious concerns. After asking clarifying questions and requesting corrections (if necessary), copy the final Table 3 output.
+* Step 13. Run P20. Copy and paste the Table 4 output from P20.
+* Step 14. Enter the following text: "Please recreate Table 4 so that any empty cell says "n/a." Please ensure that the formatting of the table is such that, when I copy and paste it, the details of an individual indicator fit within a single spreadsheet row.""
+* Step 15. Run P21. Copy and paste the Table 5 output from P21.
+* Step 16. Iteratively run P22, P23, P24, and P25.
+* Step 17. Copy and paste the Table 6 output from P25.
+* Step 18. Milestone Gamma State Refresh. Copy and paste the entirety of the file titled "Milestone Gamma Prompt 26, which includes the instruction for AI to run P26."
+* Step 19. Run P27, then copy and paste the Table 7 output from P27.
+* Step 20. Milestone Delta State Refresh. Copy and paste the entirety of the file titled "Milestone Delta Prompt 28, which includes the instruction for AI to run P28."
+* Step 21. Run P29, then copy and paste the Constitutive Relationship Flow Chart output from P29.
+* Step 22. Run P30 and P31, then copy and paste the Predictive Relationship Flow Chart output from P31.
+* Step 23. Run P32, then copy and paste the Table 8 output from P32.
+* Step 24. Run P33 and P34, then copy and paste the "Indicator Rationale and Role" summary output Table from P34.
 
-For static baseline inputs for a study, the details of the variable - including outcome type and variable type of outcome - should be recorded in the "variable type upon scoring" column, and "n/r" should be recorded in columns for outcome type and variable type of outcome. Depending on the outcome type listed in the variable type upon scoring column (narrative (5), composite index (6), latent construct (7), other derived outcome (8), model output (10), or categorical outcome (11)), the variable type of outcome can be recorded in parentheses following the outcome type, for example a baseline input that characterized as a nominal descriptive statistics would be listed as "5(n)" in the "variable type upon scoring" column.
-
-Did you find any necessary updates to Table 2 during p18.1 or p18.2, or can we retain the Table 2 output you provided earlier?
-
-Please recreate Table 4 so that any empty cells say "n/a".
-
-Please recreate Table 4 so that any empty cell says "n/a." Please ensure that the formatting of the table is such that, when I copy and paste it, the details of an individual indicator fit within a single spreadsheet row.  Also please remove all internal source links.
-
-Please recreate Table 2 with all indicator rows detailed, and ensuring that the formatting of the table is such that, when I copy and paste it, the details of an individual indicator fit within a single spreadsheet row.  Also please remove all internal source links.
-
-Tell me more about indicator 24, including why you coded it as a categorical outcome variable, what the "identities" are that make up the categories, and what the sub-variables are that provide attribute combinations constituting those identities.
-
-Are the sub-variables described also included as stand-alone indicators in the full indicator list, or would they be included as equation secondary variable elements?
-
-Articles in this Special Issue also touch on the question of where power lies to provide justice.
+## Notes and Tips
+* If a table output ever appears to be missing columns or arranged in a different order than usual, the AI may need an additional state refresh, e.g., pasting in the specific Table specifications from the relevant sub-section in Section 16.0 of the GIP, or pasting in the full text of a prompt rather than entering "Run P27" (for example).
+* Depending on the session, it may be necessary to specify additional formatting requirements to the AI. For example, it may be necessary to direct Gemini to regenerate a Table output that details all indicator rows, or to make sure the Table is formatted in such a way that copying and pasting does not involve merged cells in your spreadsheet.
