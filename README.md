@@ -1,4 +1,7 @@
 # A Global Instruction Preamble for Indicator Extraction using Google Gemini Pro
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18855967.svg)](https://doi.org/10.5281/zenodo.18855967)
+
 ## Authors: Kristin Hoelting, Amber Himes-Cornell, Lucy Bowser, Rina Hauptfeld, Eric Gross
 > This GIP is in development. Note: FAO’s conceptual categories (GIP Section 13.0) are redacted from this version, but will be added to a future GIP version once final adjustments to the categories have been completed.
 
@@ -27,4 +30,4 @@ This GitHub repository contains the full GIP document and a set of supporting ma
 ## Citation
 If you use this Global Instruction Preamble or the associated materials in your research, please cite it as follows:
 
-Hoelting, K., Himes-Cornell, A., Bowser, L., Hauptfeld, R., & Gross, E. (2026). A Global Instruction Preamble for Indicator Extraction using Google Gemini Pro (Version 1.0.0-alpha). GitHub. [DOI to be inserted here]
+Hoelting, K., Himes-Cornell, A., Bowser, L., Hauptfeld, R., & Gross, E. (2026). A Global Instruction Preamble for Indicator Extraction using Google Gemini Pro (Version 1.0.1-alpha). Zenodo. https://doi.org/10.5281/zenodo.18855967

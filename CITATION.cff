@@ -12,15 +12,7 @@ authors:
   - family-names: "Gross"
     given-names: "Eric"
 title: "A Global Instruction Preamble for Indicator Extraction using Google Gemini Pro"
-version: 1.0.0-alpha
-date-released: 2026-03-03
+version: "1.0.1-alpha"
+doi: 10.5281/zenodo.18855967
+date-released: 2026-03-04
 url: "https://github.com/kristinhoelting22/indicators-GIP"
-repository-code: "https://github.com/kristinhoelting22/indicators-GIP"
-keywords:
-  - "Google Gemini Pro"
-  - "Prompt Engineering"
-  - "Global Instruction Preamble"
-  - "Fisheries Management"
-  - "Indicator Extraction"
-  - "FAO"
-abstract: "Conceptual guidelines and data extraction rules enabling Google Gemini Pro to extract social indicators from PDF articles for the UN FAO scoping review."
