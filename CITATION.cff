@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this Global Instruction Preamble, please cite it as follows."
+authors:
+  - family-names: "Hoelting"
+    given-names: "Kristin"
+  - family-names: "Himes-Cornell"
+    given-names: "Amber"
+  - family-names: "Bowser"
+    given-names: "Lucy"
+  - family-names: "Hauptfeld"
+    given-names: "Rina"
+  - family-names: "Gross"
+    given-names: "Eric"
+title: "A Global Instruction Preamble for Indicator Extraction using Google Gemini Pro"
+version: 1.0.0-alpha
+date-released: 2026-03-03
+url: "https://github.com/kristinhoelting22/indicators-GIP"
+repository-code: "https://github.com/kristinhoelting22/indicators-GIP"
+keywords:
+  - "Google Gemini Pro"
+  - "Prompt Engineering"
+  - "Global Instruction Preamble"
+  - "Fisheries Management"
+  - "Indicator Extraction"
+  - "FAO"
+abstract: "Conceptual guidelines and data extraction rules enabling Google Gemini Pro to extract social indicators from PDF articles for the UN FAO scoping review."

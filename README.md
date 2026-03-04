@@ -8,7 +8,7 @@ This GIP could be adjusted or used as is to carry out indicator extraction for o
 
 This GitHub repository contains the full GIP document and a set of supporting materials used to contextualize prompts and/or carry out state refreshes at several points throughout the process:
 
-* [Global Instruction Preamble](https://github.com/kristinhoelting22/indicators-GIP/edit/main/README.md)
+* [Global Instruction Preamble](https://github.com/kristinhoelting22/indicators-GIP/blob/main/Preamble%20and%20supporting%20materials/Global%20Instruction%20Preamble.md)
 * [How To Use](https://github.com/kristinhoelting22/indicators-GIP/blob/main/Preamble%20and%20supporting%20materials/Initial%20prompts)
 * [Prompt 16 State Refresh](https://github.com/kristinhoelting22/indicators-GIP/blob/main/Preamble%20and%20supporting%20materials/Milestone%20Alpha%20Prompt%2016)
 * [Prompt 19 State Refresh](https://github.com/kristinhoelting22/indicators-GIP/blob/main/Preamble%20and%20supporting%20materials/Milestone%20Beta%20Prompt%2019)
@@ -21,3 +21,10 @@ This GitHub repository contains the full GIP document and a set of supporting ma
 * Lucy Bowser assisted with development of the conceptual guidelines and data extraction protocol that serve as the basis for this GIP.
 * Rina Hauptfeld assisted with development of the conceptual guidelines and data extraction protocol that serve as the basis for this GIP.
 * Eric Gross provided AI mentorship support to Kristin Hoelting.
+
+---
+
+## Citation
+If you use this Global Instruction Preamble or the associated materials in your research, please cite it as follows:
+
+Hoelting, K., Himes-Cornell, A., Bowser, L., Hauptfeld, R., & Gross, E. (2026). A Global Instruction Preamble for Indicator Extraction using Google Gemini Pro (Version 1.0.0-alpha). GitHub. [DOI to be inserted here]
